@@ -1,0 +1,61 @@
+@import "base/mixin";
+
+#Wapper{
+    padding-bottom: 0;
+}
+
+.h2title{    
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.stext{
+    margin-bottom: 100px;
+}
+
+.sponsor{
+    padding: 60px 0 100px;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .mimg{
+        margin-top: 56px;
+        margin-bottom: 50px;
+    }
+    .mtitle.bk{
+        visibility: hidden;
+    }
+}
+
+@include mediaquery(null,$sm){
+    .sponsor{
+        padding: 40px 0;
+        ul{
+            display: block;
+            text-align: center;
+        }
+        li{
+            margin-bottom: 40px;
+        }
+        .mimg{
+            margin-top: 40px;
+        }        
+        .mtitle.bk{
+            display: none;
+            + .mimg{
+                margin-top: 40px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+@include mediaquery($sm,$xl){
+    .sponsor{
+        .mimg{
+            max-width: 80%;
+        }
+    }
+}

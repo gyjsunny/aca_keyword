@@ -1,0 +1,344 @@
+.member-main .name-en {
+  font-family: "Arimo", sans-serif;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+@media all and (max-width: 575px) {
+  .member-main .name-en {
+    font-size: 48px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-main .name-en {
+    font-size: 64px;
+  }
+}
+.member-main .name-tw {
+  letter-spacing: 0.2em;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.member-main .mimg {
+  margin-bottom: 20px;
+  max-width: 240px;
+  margin: 0 auto 20px;
+}
+.member-main .stext {
+  max-width: 40em;
+  margin: 0 auto;
+}
+.member-main > div {
+  margin-bottom: 80px;
+}
+
+.member-list {
+  padding: 56px 0 20px;
+}
+.member-list .bdr {
+  margin-bottom: 72px;
+}
+.member-list .h2title {
+  text-align: center;
+  padding: 0 20px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 56px;
+}
+@media all and (max-width: 575px) {
+  .member-list .h2title {
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-list .h2title {
+    font-size: 48px;
+  }
+}
+.member-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 32px;
+  margin-bottom: 120px;
+}
+.member-list ul a {
+  color: white;
+  display: block;
+}
+.member-list .mimg {
+  aspect-ratio: 1/0.72;
+  background-color: white;
+  overflow: hidden;
+}
+.member-list .mimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.member-list .name {
+  font-family: "Arimo", sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+@media all and (max-width: 575px) {
+  .member-list .name {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-list .name {
+    font-size: 26px;
+  }
+}
+@media all and (max-width: 575px) {
+  .member-list .title {
+    font-size: 12px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-list .title {
+    font-size: 16px;
+  }
+}
+.member-list .deco {
+  position: absolute;
+  top: 0;
+  right: 8px;
+}
+.member-list .deco i, .member-list .deco i:before, .member-list .deco i:after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 99em;
+}
+.member-list .deco i::before {
+  position: absolute;
+  left: -10px;
+}
+.member-list .deco i:after {
+  position: absolute;
+  left: 10px;
+}
+
+.member-info h1 {
+  font-weight: 700;
+}
+@media all and (max-width: 575px) {
+  .member-info h1 {
+    font-size: 40px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-info h1 {
+    font-size: 80px;
+  }
+}
+@media all and (max-width: 575px) {
+  .member-info h2 {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-info h2 {
+    font-size: 24px;
+  }
+}
+.member-info .mimg {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.member-info .stext {
+  max-width: 41em;
+}
+@media all and (max-width: 575px) {
+  .member-info .stext {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-info .stext {
+    font-size: 22px;
+  }
+}
+.member-info .mail {
+  font-weight: 500;
+  margin-top: 2em;
+}
+@media all and (max-width: 575px) {
+  .member-info .mail {
+    font-size: 16px;
+  }
+}
+@media all and (min-width: 576px) {
+  .member-info .mail {
+    font-size: 22px;
+  }
+}
+.member-info .mail span {
+  width: 2.8em;
+  display: inline-block;
+}
+.member-info .mail a::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 0.9em;
+  background-color: #111;
+  margin-right: 0.6em;
+  vertical-align: -0.1em;
+}
+.member-info .mail a {
+  color: #111;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.artwork {
+  margin-top: 120px;
+  min-height: 450px;
+  padding: 40px 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.artwork h3 {
+  font-weight: 700;
+}
+@media all and (max-width: 575px) {
+  .artwork h3 {
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 576px) {
+  .artwork h3 {
+    font-size: 48px;
+  }
+}
+.artwork h3.mt {
+  margin: 12px 0 32px;
+}
+.artwork h5 {
+  letter-spacing: 0.05em;
+}
+@media all and (max-width: 575px) {
+  .artwork h5 {
+    font-size: 18px;
+  }
+}
+@media all and (min-width: 576px) {
+  .artwork h5 {
+    font-size: 26px;
+  }
+}
+.artwork .info {
+  margin: 20px auto;
+  max-width: 58em;
+}
+
+.tag span {
+  display: inline-block;
+  background-color: white;
+  border-radius: 99em;
+  color: #262626;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  padding: 6px 15px;
+  margin: 0 0.5em;
+}
+
+@media all and (max-width: 575px) {
+  .member-main > div {
+    margin-bottom: 40px;
+  }
+  .member-list .h2title {
+    margin-bottom: 30px;
+  }
+  .member-list ul {
+    padding: 0 20px;
+    margin-bottom: 60px;
+  }
+  .member-list li {
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 20px;
+  }
+  .member-list li:nth-child(2n+1) {
+    margin-right: 20px;
+  }
+  .member-list .deco {
+    right: 4px;
+  }
+  .member-list .deco i, .member-list .deco i:before, .member-list .deco i:after {
+    width: 2px;
+    height: 2px;
+  }
+  .member-list .deco i::before {
+    left: -5px;
+  }
+  .member-list .deco i:after {
+    left: 5px;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 990px) {
+  .member-list li {
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 20px;
+  }
+  .member-list li:nth-child(2n) {
+    margin-left: 20px;
+  }
+}
+@media all and (max-width: 990px) {
+  .member-main .name-en, .member-main .name-tw {
+    text-align: center;
+  }
+}
+@media all and (min-width: 991px) {
+  .member-main > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .member-main > div:nth-child(1) .mimg {
+    margin-right: 5vw;
+    margin-left: 0;
+  }
+  .member-main > div:nth-child(2) {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .member-main > div:nth-child(2) .mimg {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .member-main > div:nth-child(2) .info {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .member-list li {
+    width: calc((100% - 64px) / 3);
+    margin-bottom: 32px;
+  }
+  .member-list li:nth-child(3n+2) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}

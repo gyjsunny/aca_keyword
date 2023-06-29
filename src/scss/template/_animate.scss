@@ -1,0 +1,45 @@
+.asj.fade{
+    opacity: 0;
+    &.animated{
+        opacity: 1;
+        transition: opacity 2s cubic-bezier(.38, .005, .215, 1);
+        // transition: opacity 2s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+}
+.asj.fade-up{
+    opacity: 0;
+    transform: translateY(60px);
+
+    &.animated{
+        opacity: 1;
+        transform: translateY(0px);
+        transition: opacity 2s ,transform 0.8s;
+        transition-delay: 0.3s;
+        transition-timing-function: cubic-bezier(.38, .005, .215, 1);
+    }
+}
+.asj.skewY{
+    opacity: 0;
+    transform: translateY(100px) skewY(15deg);
+
+    &.animated{
+        opacity: 1;
+        transform: translateY(0px);
+        transition: opacity 2s ,transform 1s;
+        transition-delay: 0.5s;
+        transition-timing-function: cubic-bezier(.38, .005, .215, 1);
+    }
+}
+
+.asj[data-delay="100"]{
+    transition-delay: 0.1s;
+}
+.asj[data-delay="200"]{
+    transition-delay: 0.2s;
+}
+.asj[data-delay="300"]{
+    transition-delay: 0.3s;
+}
+.asj[data-delay="500"]{
+    transition-delay: 0.5s;
+}

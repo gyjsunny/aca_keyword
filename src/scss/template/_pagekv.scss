@@ -1,0 +1,104 @@
+
+.pgkv {
+    position: relative;
+    overflow: hidden;
+    font-family: $fontfix;  
+    margin-bottom: 120px;   
+    .fen{
+      @include font-size(pxToEm(15),pxToEm(20)); 
+      @include font-color($color2,200,1);
+      margin-bottom: 2em;
+      letter-spacing: 0.8em;
+    }
+    .mtitle{
+        font-size: pxToEm(48);
+        @include font-color($color3,200,1);
+        letter-spacing: 0.3em;
+    } 
+    @include mediaquery(null,$md){  
+      margin-bottom: 40px;   
+      .bgimg .pc_use{
+        display: none;
+      }
+      .bgimg{
+        width: 70%;   
+        margin-left:30%;     
+        img{
+          aspect-ratio: 1/0.875;
+        }        
+      }
+      .fen{
+        margin-top: 3em;
+        margin-bottom: 3.5em;
+      }
+    }
+    @include mediaquery($md,null){
+      .col{
+        padding-top: 290px;
+      }
+      .bgimg .mo_use{
+        display: none;
+      }
+      .bgimg{
+        width: 60%;
+        height: 100%;
+        @include position(absolute,$left:calc(5vw + 35%),$top:0);
+        img{
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    @include mediaquery(null,$lg){ 
+      
+    }
+    @include mediaquery($lg,null){  
+      
+    }  
+    @include mediaquery($xxl,null){
+      .fen{
+        margin-bottom: 4em;
+      }
+      .mtitle{
+        font-size: pxToEm(64);
+      }
+      .bgimg{
+        width: 65%;
+        left:calc(5vw + 30%);
+      }
+      .col{
+        margin-left: 8.3%;
+      }
+    }
+}
+
+.bg-deco{
+  width: 50%;
+  height: calc(100% - 120px);
+  @include position(absolute,$left:0,$top:0);
+  z-index: -1;
+  background-color: #F8F8F8;
+  border-bottom-right-radius: 100px;
+  @include mediaquery(null,$md){
+    border-bottom-right-radius: 50px;
+    height: calc(100% - 60px);
+  }
+}
+
+.txt-deco{
+  @include position(absolute,$right:10px,$top:0);
+  color:$color4;
+  font-size: pxToEm(64);
+  letter-spacing: 0.2em;
+  font-family: $fen;
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+  opacity: 0.2;
+  @include mediaquery(null,$lg){
+    display: none;
+  }
+  @include mediaquery($xxl,null){
+    right:6vw;
+  }
+}

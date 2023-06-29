@@ -1,0 +1,53 @@
+//share 共用的css
+.caselist{    
+    li{
+        position: relative;    
+    }
+    h5{
+        @include font-size(pxToEm(22),pxToEm(26));
+        color:$color3;
+        font-family: $fontSerif;
+        line-height: 1.5;
+        letter-spacing: 0.05em;
+        margin-bottom: 1.5em;
+    }    
+    .stext{
+        @include font-size(pxToEm(16),pxToEm(18));
+        color:#675757;
+        letter-spacing: 0.025em;
+    }    
+}
+
+@include mediaquery(null,$md){
+    .caselist{        
+        h5{
+            margin:1em 0;
+        } 
+        .stext{
+            line-height: 2;
+            margin-bottom: 2em;
+        }
+        
+    }
+}
+@include mediaquery($md,null){
+    .caselist{
+        li{
+            display: flex;
+            align-items: center;   
+        }
+        li:hover{
+            // .btn{
+            //     background-color: $color1;
+            //     color:#F8F8F8;
+            // }
+            h5{
+                color:$color1;
+            }
+        }                
+        .imgWrap img{
+            aspect-ratio: 1/0.667;
+            object-fit: cover;
+        }
+    }  
+}
