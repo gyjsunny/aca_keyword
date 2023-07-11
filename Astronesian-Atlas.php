@@ -9,7 +9,7 @@
     ?>
     <div id="Wapper">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a href="project.php">PROJECT</a>
             <a class="active">Astronesian Atlas</a>
         </div>        
@@ -24,7 +24,7 @@
                 <br><br>
                 The Nusantara Archive uses the Nusantara (Malay Archipelago), where Malay is the lingua franca in the region, as our measure and methodology for defining artistic exchange. Under the framework of the project, we attempt to point out the “vernacular” element – something that has most often been over looked, but is the most important component in the exchange – in order to discuss artistic exchanges, and to survey (based on such exchanges) the multiple layers of mutual understanding at work in this culture. In this collaborative writing process, we have taken a step further. First of all, Posak’s writing adopts a pair of words – “kita/kami,” which is used by both the Taiwanese indigenous people and in Nusantara, to indicate the blurry boundary between a “we-group” and a “non we-group.” Such a boundary is sometimes flexible and adjusted, based on the situations of exchange. At the same time, Acip also points out Jakarta’s unique language milieu informed by post-colonial urbanism, which has rendered the concept of “origin” that we aim to explore more unstable.
                 <br><br>
-                In terms of the formation of our keywords, I initially suggest adopting reverse engineering, so as to reverse the approach of writing keywords, given the limited resources—this method is inspired by third-world new media artists, who often have to reverse engineer original designs in order to “hack,” modify, or appropriate electronic products of original specifications, due to lacking creative resources, i.e., the latest consumer electronic products. This instead allows local artists, who are subjected to disadvantages in relation to consumer capitalism, to demonstrate different forms of adaptability and creativity. What I mean is how Posak and Acip may reverse engineer the themes of their ongoing projects (e.g., Posak’s Lakec series and Acip’s The Sense of Greatness series), and thereby discover the appropriate and relevant keywords by dismantling their projects into smaller units. However, both artists are more ambitious than what I have suggested—they want to discover and interpret the new dimensions of contemporary Asia from their own (indigenous) cultures, which makes the task more challenging.
+                In terms of the formation of our keywords, I initially suggest adopting reverse engineering, so as to reverse the approach of writing keywords, given the limited resources—this method is inspired by third-world new media artists, who often have to reverse engineer original designs in order to “hack,” modify, or appropriate electronic products of original specifications, due to lacking creative resources, i.e., the newest consumer electronic products. This instead allows local artists, who are subjected to disadvantages in relation to consumer capitalism, to demonstrate different forms of adaptability and creativity. What I mean is how Posak and Acip may reverse engineer the themes of their ongoing projects (e.g., Posak’s Lakec series and Acip’s The Sense of Greatness series), and thereby discover the appropriate and relevant keywords by dismantling their projects into smaller units. However, both artists are more ambitious than what I have suggested—they want to discover and interpret the new dimensions of contemporary Asia from their own (indigenous) cultures, which makes the task more challenging.
                 <br><br>
                 Through this transnational collaboration, Posak, Acip and I have come closer to the different cultural entities within the Nusantara framework, and have learned more about the limits of intercultural practice. These keywords enable us to see how different “vernacular situations,” being the interface allowing different groups to engage with one another and coexist, manifest the potential of their language milieu as a form of art practice. To conclude, I hope that this writing project will be the beginning of a series of deepening collaborations that will allow us to continue moving towards a future of co-prosperity for Asian contemporary art, in which similarities can be found and differences co-exist.<br><br><br><br>
 
@@ -38,27 +38,25 @@
             </div>
         </section>        
         <section class="bgblack fserif artwork-wrap">
-            <div class="text-center"><b class="bdr">ARTWORK</b></div>
+            <div class="text-center"><b class="bdr">PROJECT</b></div>
             <ul class="artwork-list">
-                <li>
-                    <a href="The-History-of-the-Territory.php">
-                        <strong>01</strong>
-                        <div class="tname">The History of the Territory</div>
-                        <b class="name">Angga Cipta</b>
-                        <div class="tag">
+                <li onclick="location.href='The-History-of-the-Territory.php'">                    
+                    <strong>01</strong>
+                    <div class="tname">The History of the Territory</div>
+                    <b class="name"><a href="member.php?name=Member-Angga-Cipta">Angga Cipta</a></b>
+                    <div class="tag">
+                        <a href="./">
                             <i># Berkumpul dan Bersiasat </i>
                             <i># Rumah </i>
                             <i># The Spices of Society</i>
-                        </div>
-                    </a>
+                        </a>
+                    </div>                    
                 </li>
-                <li>
-                    <a href="We—In-between-kita-and-kami.php">
-                        <strong>02</strong>
-                        <div class="tname">We—In between kita and kami</div>
-                        <b class="name">Posak Jodian</b>
-                        <div class="tag"># Kami # Kita</div>
-                    </a>
+                <li onclick="location.href='We—In-between-kita-and-kami.php'">
+                    <strong>02</strong>
+                    <div class="tname">We—In between kita and kami</div>
+                    <b class="name"><a href="member.php?name=Member-Posak-Jodian">Posak Jodian</a></b>
+                    <div class="tag"><a href="./"># Kami # Kita</a></div>                    
                 </li>
             </ul>
         </section>

@@ -5,10 +5,8 @@ function gotopfun(scrollTop) {
     var navbox = headerbox.outerHeight(true);
     if (scrollTop >= 60) {
         top.addClass('open');
-        headerbox.addClass("navdown");
     } else {
         top.removeClass('open');
-        headerbox.removeClass("navdown");
     }
     if ($(window).scrollTop() >= $(document).height() - $(window).height() - $('footer').outerHeight(true)) {
         top.addClass('change');

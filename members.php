@@ -9,7 +9,7 @@
     ?>
     <div id="Wapper">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a class="active">MEMBERS</a>
         </div>
         <section class="row">
@@ -75,7 +75,7 @@
                             </div>
                             <div class="mpsrel">
                                 <div class="name">${value.name}</div>
-                                <div class="title">${value.title}r</div>
+                                <div class="title">${value.title}</div>
                                 <div class="deco"><i></i></div>
                             </div>
                         </a>

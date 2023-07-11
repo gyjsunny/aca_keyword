@@ -164,7 +164,7 @@
         font-family: $fontSerif;
         font-weight: 700;
         padding:6px 15px;
-        margin:0 0.5em;
+        margin:0 0.5em 1em;
     }
 }
 @include mediaquery(null,$sm){

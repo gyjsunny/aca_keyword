@@ -9,7 +9,7 @@
     ?>
     <div id="Wapper">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a href="project.php">PROJECT</a>
             <a class="active">The footprints of Maroon</a>
         </div>        
@@ -26,9 +26,9 @@
 
                 Artist Tapas Roy was born in Bangladesh in 1971. His childhood memory of fleeing from the war is a major theme in his works. According to him, he already experienced the war sonically when he was a fetus in his mother's womb. In his painting series, he attempts to delineate the sounds from his memory, and portrays the war that he experienced but did not see. In this project, I use "voice" as a keyword, and invite Roy to write about the source of his painting series, which he has continued for many years. His autobiographical writing serves as a supplement to what lies behind the border crossing.<br><br>
 
-                Instead of calling Mahila Zine a publication, one might instead see it as a platform of exchange for South Asian women artists. With different themes and production methods, each issue engenders a focused discussion. Being an economical, smaller-sized form of publication, the zine makes it easier to preserve the artworks by women artists in their professional fields, as well as their spontaneous creations regarding the social realities they find themselves faced with. During this project, the South Asian region was under the strong impact caused by the measure of "lockdown" due to the COVID-19 pandemic. How do women cope with the impasse arising from their attempt to break free from the restraints of traditions and the idea of "home" and their being forced to return home due to the lockdown? I invite Mahila Zine to use "lockdown" as an issue title and the keyword for the project to publish the latest issue.<br><br>
+                Instead of calling Mahila Zine a publication, one might instead see it as a platform of exchange for South Asian women artists. With different themes and production methods, each issue engenders a focused discussion. Being an economical, smaller-sized form of publication, the zine makes it easier to preserve the artworks by women artists in their professional fields, as well as their spontaneous creations regarding the social realities they find themselves faced with. During this project, the South Asian region was under the strong impact caused by the measure of "lockdown" due to the COVID-19 pandemic. How do women cope with the impasse arising from their attempt to break free from the restraints of traditions and the idea of "index" and their being forced to return index due to the lockdown? I invite Mahila Zine to use "lockdown" as an issue title and the keyword for the project to publish the latest issue.<br><br>
 
-                "Post-humanist body" and "visuality" are the keywords proposed by art educator Mrinal Kulkarni. Using an article about cases of the new media art in India, she talks about the ideas embedded in the keywords. In the cases she mentioned, discussions and the use of the NFTs were included as well. In The Crypto Anarchist Manifesto of 1988, it is believed that crypto currency can provide the momentum to create a utopia without national borders. This ideal has been proven unachievable after several years of practice, but "the image of these rebels haunts Caribbean history as the lost hope of the past, and by analogy has become the imaginative symbol of the fugitive in our time, because the maroon can also run away to an imaginary homeland; he crosses borders and breaks out of boundaries and inhabits a place of elective affinities."<br><br><br><br>
+                "Post-humanist body" and "visuality" are the keywords proposed by art educator Mrinal Kulkarni. Using an article about cases of the new media art in India, she talks about the ideas embedded in the keywords. In the cases she mentioned, discussions and the use of the NFTs were included as well. In The Crypto Anarchist Manifesto of 1988, it is believed that crypto currency can provide the momentum to create a utopia without national borders. This ideal has been proven unachievable after several years of practice, but "the image of these rebels haunts Caribbean history as the lost hope of the past, and by analogy has become the imaginative symbol of the fugitive in our time, because the maroon can also run away to an imaginary indexland; he crosses borders and breaks out of boundaries and inhabits a place of elective affinities."<br><br><br><br>
 
                 「marron」在法文中指得是栗子、栗子色，另一個相關單字「marroner」則意味著逃跑。在《標誌與奇蹟 <sup>1</sup>》（2003）一書中，曾說「在牙買加和其他地方的栗色人與殖民列強進行了激烈的鬥爭，並建立了自己的飛地和經濟 <sup>2</sup>」；而在西蒙．哈維（Simon Harvey）的《走私》（2016）中，則提到marroner在18世紀時的另一個意思：從事秘密工作，通常是指暗中運送禁書。這些被禁的書籍包含了情色文學與夾藏在法律書籍裡的思想巨著；在拉丁美洲獨立戰爭時期，書籍走私商為西蒙．波利瓦（Simón Bolívar）提供了兩台小型平版印刷機作為思想跨越邊境的工具。跨越邊界的背後總是充滿了不得不為但又必須有所為的理想主義情懷，而跨越邊界的理由在經歷漫長的歷史後，已經變得複雜難解，因為疆域內對於特定族群的推力所指出的階層關係，以及迫害者面貌已經變得模糊不清，甚至有時指出的是流亡者也參與的自我壓迫系統。<br><br>
 
@@ -49,7 +49,7 @@
                 </li>
                 <li>
                     <b class="fs12">03</b>
-                    <div>The image of these rebels haunts Caribbean history as the lost hope of the past, and by analogy has become the imaginative symbol of the fugitive in our time, because the maroon can also run away to an imaginary homeland; he crosses borders and breaks out of boundaries and inhabits a place of elective affinities. (Signs 265)</div>
+                    <div>The image of these rebels haunts Caribbean history as the lost hope of the past, and by analogy has become the imaginative symbol of the fugitive in our time, because the maroon can also run away to an imaginary indexland; he crosses borders and breaks out of boundaries and inhabits a place of elective affinities. (Signs 265)</div>
                 </li>
                 <li>
                     <b class="fs12">04</b>
@@ -62,31 +62,25 @@
             </ul>
         </section>        
         <section class="bgblack fserif artwork-wrap">
-            <div class="text-center"><b class="bdr">ARTWORK</b></div>
+            <div class="text-center"><b class="bdr">PROJECT</b></div>
             <ul class="artwork-list">
-                <li>
-                    <a href="Voice.php">
-                        <strong>01</strong>
-                        <div class="tname">Voice</div>
-                        <b class="name">Tapas Roy</b>
-                        <div class="tag"># Voice</div>
-                    </a>
+                <li onclick="location.href='voice.php'">                    
+                    <strong>01</strong>
+                    <div class="tname">Voice</div>
+                    <b class="name"><a href="member.php?name=Member-Tapas-Roy">Tapas Roy</a></b>
+                    <div class="tag"><a href="./"># Voice</a></div>                    
                 </li>
-                <li>
-                    <a href="Mahila-Zine-7.php">
-                        <strong>02</strong>
-                        <div class="tname">Mahila Zine 7</div>
-                        <b class="name">Vichar K Achaar</b>
-                        <div class="tag"># Voice</div>
-                    </a>
+                <li onclick="location.href='Mahila-Zine-7.php'">                    
+                    <strong>02</strong>
+                    <div class="tname">Mahila Zine 7</div>
+                    <b class="name"><a href="member.php?name=Member-Vichar-K-Achaar">Vichar K Achaar</a></b>
+                    <div class="tag"><a href="./"># Lockdown</a></div>                   
                 </li>
-                <li>
-                    <a href="Local-and-virtual-interface.php">
-                        <strong>03</strong>
-                        <div class="tname">Posthuman Body and Visuality: local and virtual interface</div>
-                        <b class="name">Mrinal Kulkarni</b>
-                        <div class="tag"># Post Humanist Body # Visuality</div>
-                    </a>
+                <li onclick="location.href='Local-and-virtual-interface.php'">
+                    <strong>03</strong>
+                    <div class="tname">Posthuman Body and Visuality: local and virtual interface</div>
+                    <b class="name"><a href="member.php?name=Member-Mrinal-Kulkarni">Mrinal Kulkarni</a></b>
+                    <div class="tag"><a href="./"># Post Humanist Body # Visuality</a></div>                   
                 </li>
             </ul>
         </section>

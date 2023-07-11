@@ -9,7 +9,7 @@
     ?>
     <div id="Wapper">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a href="project.php">PROJECT</a>
             <a class="active">Aquqrium poetry workshop</a>
         </div>        

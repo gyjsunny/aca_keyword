@@ -9,7 +9,7 @@
     ?>
     <div id="Wapper" class="project-h">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a class="active">PROJECT</a>
         </div>
         <h1 class="h1title">Project</h1>

@@ -12,7 +12,7 @@
     ?>
     <div id="Wapper">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a href="project.php">PROJECT</a>
             <a href="The-footprints-of-Maroon.php">The footprints of Maroon</a>
             <a class="active">Mahila Zine 7</a>
@@ -33,31 +33,36 @@
                 <div class="swiper photo">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="dist/images/pexels-simon-berger-1266810.jpg">
-                            <img src="dist/images/pexels-simon-berger-1266810.jpg" alt=""/> 
+                            <a href="https://picsum.photos/1200/1725/?gravity=east">
+                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
                             </a>
                         </div>
                         <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="dist/images/The-footprints-of-Maroon/1 973.png">
-                                <img src="dist/images/The-footprints-of-Maroon/1 973.png" alt=""/>
+                            <a href="https://picsum.photos/1200/1725/?gravity=east">
+                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
                             </a>
                         </div>
                         <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="dist/images/The-footprints-of-Maroon/1 973.png">
-                                <img src="dist/images/The-footprints-of-Maroon/1 973.png" alt=""/>
+                            <a href="https://picsum.photos/1200/1725/?gravity=east">
+                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
                             </a>
                         </div>
                         <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://github.com/shoha-kh/products-gallery-carousel-with-zoom/blob/master/images/nature-4.jpg?raw=true">
-                            <img src="https://github.com/shoha-kh/products-gallery-carousel-with-zoom/blob/master/images/nature-4.jpg?raw=true" alt=""/>
+                            <a href="https://picsum.photos/1200/1725/?gravity=east">
+                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
                             </a>
                         </div>
                         <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://github.com/shoha-kh/products-gallery-carousel-with-zoom/blob/master/images/nature-5.jpeg?raw=true">
-                            <img src="https://github.com/shoha-kh/products-gallery-carousel-with-zoom/blob/master/images/nature-5.jpeg?raw=true" alt=""/>
+                            <a href="https://picsum.photos/1200/1725/?gravity=east">
+                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
                             </a>
                         </div>
+                        <div class="swiper-slide easyzoom easyzoom--overlay">
+                            <a href="https://picsum.photos/1200/1725/?gravity=east">
+                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
+                            </a>
                         </div>
+                    </div>
                 </div>   
                 <div class="arrow ltbn">
                     <img src="dist/images/chevron-left.png">

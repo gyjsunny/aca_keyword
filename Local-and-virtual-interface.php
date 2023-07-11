@@ -117,14 +117,14 @@
                     </div>
                     <ul class="full-text">    
                         <li class="active">
-                            <a href="javascript:;">PART 01</a>
+                            <a href="javascript:;">01</a>
                             <div class="stext">
                                 Art history studies are predicated on the idea that seeing is a physical act of vision and visuality. According to some, the scopic regime equated seeing with knowing. It eventually became linked to the concepts of visibility, identity, and the debate surrounding gaze. Later, the discussion surrounding the representation of various visuality concepts included Derrida's concept of the "Right to see." These ideas destroyed the aspect of seeing the truth. Deconstructing the pictures produced as a result of visual experiences helped to develop the discourse. Despite being equally visual-centric, this modern discourse went beyond the heroic visualisation of history to create visuality discourse.
                             </div>
                             <div class="dwbtn"></div>                            
                         </li>
                         <li>
-                            <a href="javascript:;">PART 02</a>
+                            <a href="javascript:;">02</a>
                             <div class="stext">
                                 Art history studies are predicated on the idea that seeing is a physical act of vision and visuality. According to some, the scopic regime equated seeing with knowing. It eventually became linked to the concepts of visibility, identity, and the debate surrounding gaze. Later, the discussion surrounding the representation of various visuality concepts included Derrida's concept of the "Right to see." These ideas destroyed the aspect of seeing the truth. Deconstructing the pictures produced as a result of visual experiences helped to develop the discourse. Despite being equally visual-centric, this modern discourse went beyond the heroic visualisation of history to create visuality discourse.
                             </div>

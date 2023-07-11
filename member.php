@@ -10,7 +10,7 @@
     <div id="Wapper">
         <div class="bread">
             <a href="./">HOME</a>
-            <a href="member-list.php">MEMBERS</a>
+            <a href="members.php">MEMBERS</a>
             <a class="active">LI Kuei-Pi</a>
         </div>
         <section class="row member-info">

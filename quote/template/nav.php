@@ -1,6 +1,6 @@
 	<header>
 		<div class="title-bar text-center">
-			<h2>KEYWORD DICTIONARY OF ASIAN CONTEMPORARY ART</h2>
+			<h2>KEYWORD DICTIONARY OF <i></i>ASIAN CONTEMPORARY ART</h2>
 			<a href="javascript:;" class="menuicon">
 				<div class="mpsrel">
 					<div class="bar"></div>

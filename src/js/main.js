@@ -21,7 +21,8 @@ $(function () {
     var menuicon = $('header .title-bar'),
         navBox = $('header .mmenu'),
         nav = $('header .navBox'),
-        $body = $('body');
+        $body = $('body'),
+        headerbox = $('header');
     menuicon.on('click', function () {
         var $this = $(this);
         if (!$header.hasClass('menu-expanded')) {
@@ -48,9 +49,14 @@ $(function () {
         
         resizeBgcover(winW);
     }).resize();
+
+    let beforeScrollTop;
     $window.on('scroll', function () {
         scrollTop = $(this).scrollTop();
         gotopfun(scrollTop);
         revealOnScroll()
+        if(beforeScrollTop < scrollTop) headerbox.addClass("navdown");
+        else headerbox.removeClass("navdown");
+        setTimeout(function(){ beforeScrollTop = scrollTop ; },0)
     }).scroll();
 });

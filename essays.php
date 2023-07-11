@@ -8,7 +8,7 @@
     ?>
     <div id="Wapper" class="pdbtm">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a class="active">ESSAYS</a>
         </div>
         <section class="row member-info">

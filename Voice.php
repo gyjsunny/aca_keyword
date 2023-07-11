@@ -10,7 +10,7 @@
     ?>
     <div id="Wapper" class="pdbtm">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a href="project.php">PROJECT</a>
             <a href="The-footprints-of-Maroon.php">The footprints of Maroon</a>
             <a class="active">Voice</a>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-xl-8 col-9 col-auto stext">                
                 <div class="lang-box" id="lang-en"></div>
-                I was born in the Sundarban Delta region of Bangladesh in the year of 1971. It was during the time of war, genocide and ethnic cleansing by the authoritarian army of Pakistan along with local religious radicals. Millions of the minority Hindu community were butchered and several other millions were driven out of their homes. Like thousands of other families, my family also fled to India in a small wooden fishing boat. It's an area that consists of several rivers and their tributaries networked like veins and capillaries and naturally many families took the water routes to find safe places and save their lives. Roads were unsafe as there was fierce fighting in the land and all escape routes were blocked with tanks and machine guns. The waters became red and my family had to pass through floating mutilated bodies amidst mayhem and fear. At the year-end, after a gory battle, the Eastern part of Bengal got freedom and a new country, Bangladesh was born. It was during my family's journey back home I was born.
+                I was born in the Sundarban Delta region of Bangladesh in the year of 1971. It was during the time of war, genocide and ethnic cleansing by the authoritarian army of Pakistan along with local religious radicals. Millions of the minority Hindu community were butchered and several other millions were driven out of their indexs. Like thousands of other families, my family also fled to India in a small wooden fishing boat. It's an area that consists of several rivers and their tributaries networked like veins and capillaries and naturally many families took the water routes to find safe places and save their lives. Roads were unsafe as there was fierce fighting in the land and all escape routes were blocked with tanks and machine guns. The waters became red and my family had to pass through floating mutilated bodies amidst mayhem and fear. At the year-end, after a gory battle, the Eastern part of Bengal got freedom and a new country, Bangladesh was born. It was during my family's journey back index I was born.
                 <br><br>
                 Since unborn and being in my mother's womb, I witnessed the shadow and horror of war in the form of sound (whirring warplanes, guns, etc.), visuals through narratives and later on visuals through photography and other media. I still wake up at midnight from nightmares of dragon bomber planes whirring and flying like monsters. Later on when I was grown up enough, I witnessed blood thirst, hatred in the eyes of people. The war was over, but it took several years for lives to recover from famine and numerous other side effects, engraving aside an everlasting impression in human minds and souls.
                 <br><br>

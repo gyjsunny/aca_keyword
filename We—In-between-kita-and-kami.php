@@ -11,7 +11,7 @@
     ?>
     <div id="Wapper">
         <div class="bread">
-            <a href="./">HOME</a>
+            <a href="./">index</a>
             <a href="project.php">PROJECT</a>
             <a href="Astronesian-Atlas.php">Astronesian Atlas</a>
             <a class="active">We - In between kita and kami</a>

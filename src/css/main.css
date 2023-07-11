@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&&family=Arimo:wght@400;500;700&&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Noto+Sans+TC:wght@300;400;500;700&&family=Arimo:wght@400;500;700&&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -42,9 +42,8 @@ ol, ul {
 body {
   position: relative;
   overflow-x: hidden;
-  scroll-behavior: smooth;
   font-family: "Roboto", "Noto Sans TC", sans-serif;
-  color: #262626;
+  color: #111;
   min-height: 100vh;
 }
 body.fade-in {
@@ -52,12 +51,6 @@ body.fade-in {
   -webkit-transition: opacity 2s ease;
   transition: opacity 2s ease;
   visibility: visible;
-}
-@media all and (max-width: 768px) {
-  body {
-    background-size: 80%;
-    background-position: center 25vh;
-  }
 }
 
 /*----------------------通用設定------------------------*/
@@ -105,6 +98,9 @@ img {
   overflow: hidden;
   position: relative;
   padding-top: 100px;
+}
+#Wapper.pdtop {
+  padding-top: 0;
 }
 @media all and (max-width: 768px) {
   #Wapper.pdbtm {
@@ -294,7 +290,11 @@ img {
 }
 
 .bgblack {
-  background-color: #1E1E1E;
+  background-color: #111;
+}
+
+.bgblack.pd40120 {
+  padding: 40px 0 120px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -306,8 +306,20 @@ b, strong {
   font-weight: 700;
 }
 
+p {
+  margin-bottom: 1.5em;
+}
+
 .fs12 {
   font-size: 12px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs18 {
+  font-size: 18px;
 }
 
 .fs20 {
@@ -325,12 +337,32 @@ b, strong {
   }
 }
 
+.fs26 {
+  font-size: 26px;
+}
+
+.fs28 {
+  font-size: 28px;
+}
+
 .mb-8 {
   margin-bottom: 0.8em;
 }
 
 .mb-2 {
   margin-bottom: 0.2em;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb80 {
+  margin-bottom: 80px;
+}
+
+.mb120 {
+  margin-bottom: 120px;
 }
 
 .bread {
@@ -340,6 +372,7 @@ b, strong {
   font-family: "Arimo", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 .bread a {
   color: #111;
@@ -373,6 +406,17 @@ b, strong {
   }
 }
 
+@media all and (max-width: 575px) {
+  .h1title.fs124 {
+    font-size: 60px;
+  }
+}
+@media all and (min-width: 576px) {
+  .h1title.fs124 {
+    font-size: 124px;
+  }
+}
+
 .h2title {
   line-height: 1.2;
   letter-spacing: 0.2em;
@@ -397,7 +441,7 @@ b, strong {
 
 .stext {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.625;
   font-weight: 500;
 }
 
@@ -421,6 +465,35 @@ b, strong {
   .bdr {
     font-size: 20px;
   }
+}
+
+.bdr.bk {
+  border-color: #111;
+  color: #111;
+}
+
+.lang-box {
+  width: 100%;
+  height: 1px;
+}
+
+.lang-btn {
+  position: fixed;
+  top: 40%;
+  right: 0;
+  z-index: 99;
+}
+.lang-btn a {
+  font-family: "Arimo", "Noto Sans TC", sans-serif;
+  text-align: center;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #111;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 1px;
 }
 
 .readmore {
@@ -479,24 +552,53 @@ header {
   max-width: 720px;
   width: calc(100% - 32px);
 }
+@media all and (max-width: 575px) {
+  header {
+    top: 0px;
+    height: 60px;
+  }
+}
+header.navdown {
+  pointer-events: none;
+  opacity: 0;
+}
 header .title-bar {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  background-color: #222;
   color: white;
   font-weight: 700;
   line-height: 1.2;
-  border-radius: 100px;
-  line-height: 36px;
+  font-size: 14px;
 }
 @media all and (max-width: 575px) {
   header .title-bar {
-    font-size: 12px;
+    text-align: left;
+    color: #111;
+    padding-top: 16px;
+  }
+  header .title-bar i {
+    display: block;
+  }
+  header .title-bar .menuicon {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    background-color: #222;
+    border-radius: 20px;
+    right: 0;
+    top: 12px;
+  }
+  header .title-bar .menuicon .mpsrel {
+    width: 56px;
+  }
+  header .title-bar .menuicon .bar {
+    margin-right: 18px;
   }
 }
 @media all and (min-width: 576px) {
   header .title-bar {
-    font-size: 14px;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    background-color: #222;
+    border-radius: 100px;
+    padding: 10px 0;
   }
 }
 header .navBox {
@@ -512,6 +614,11 @@ header .navBox {
   border-radius: 12px;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
+}
+@media all and (max-width: 575px) {
+  header .navBox {
+    top: 60px;
+  }
 }
 header .menuicon {
   position: absolute;
@@ -531,7 +638,7 @@ header .menuicon .bar, header .menuicon .bar:after, header .menuicon .bar:before
   top: 0;
   right: 0%;
   height: 1px;
-  width: 18px;
+  width: 20px;
   background: white;
 }
 header .menuicon .bar {

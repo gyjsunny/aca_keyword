@@ -10,7 +10,7 @@
     <div id="Wapper" class="pdtop">              
         <section class="kv">
             <div class="bread">
-                <a href="./">HOME</a>
+                <a href="./">index</a>
                 <a href="project.php">PROJECT</a>
                 <a class="active">AQUARIUM</a>
             </div>  
@@ -19,7 +19,7 @@
                     <div class="fserif fs24 mb-2">
                         <b class="mb-2">Issay Rodriguez </b>
                         <span class="tag">
-                            <i># Aruga</i>
+                            <i># Aurga</i>
                             <i># Dama</i>
                             <i># Nilay</i>
                             <i># Tanawin</i>
@@ -377,19 +377,19 @@
             </div>
         </section>      
         <section class="bgblack fserif artwork-wrap">
-            <div class="text-center"><b class="bdr">ARTWORK</b></div>
+            <div class="text-center"><b class="bdr">PROJECT</b></div>
             <ul class="artwork-list">
-                <li>
-                    <a href="aquqrium-poetry-workshop.php">
-                        <strong>01</strong>
-                        <div class="tname">AQUARIUM Poetry Workshop</div>
-                        <b class="name"></b>
-                        <div class="tag">
+                <li onclick="location.href='aquqrium-poetry-workshop.php'">
+                    <strong>01</strong>
+                    <div class="tname">AQUARIUM Poetry Workshop</div>
+                    <b class="name"></b>
+                    <div class="tag">
+                        <a href="./">
                             <i># Berkumpul dan Bersiasat</i>
                             <i># Rumah</i>
                             <i># The Spices of Society</i>
-                        </div>
-                    </a>
+                        </a>
+                    </div>                    
                 </li>
             </ul>
         </section>

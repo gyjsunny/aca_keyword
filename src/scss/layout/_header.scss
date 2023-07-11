@@ -6,17 +6,48 @@ header{
     transform: translateX(-50%);   
     max-width: 720px;
     width: calc(100% - 32px) ;
-    @include mediaquery(null,$sm){       
+    @include mediaquery(null,$sm){ 
+        top:0px;
+        height: 60px;
+        // background-color: white;
     }     
     @include mediaquery($md,$lg){
     }
+    &.navdown{
+        pointer-events: none;
+        opacity: 0;
+    }
     .title-bar{
-        box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-        background-color: #222;
         @include font-color(white,700,1.2);
-        @include font-size(12px,14px);
-        border-radius: 100px;
-        line-height: 36px;
+        // @include font-size(12px,14px);
+        font-size: 14px;
+        @include mediaquery(null,$sm){  
+            text-align: left;
+            color:#111;
+            padding-top: 16px;
+            i{
+                display: block;
+            }
+            .menuicon{                
+                box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+                background-color: #222;
+                border-radius: 20px;
+                right: 0;
+                top:12px;
+                .mpsrel{
+                    width: 56px;
+                }
+                .bar{
+                    margin-right: 18px;
+                }
+            }
+        }     
+        @include mediaquery($sm,null){
+            box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+            background-color: #222;
+            border-radius: 100px;
+            padding: 10px 0;
+        }
     }
     .navBox{         
         position: relative;    
@@ -29,6 +60,9 @@ header{
         @include border(12px);    
         -webkit-overflow-scrolling: touch;
         overflow-y: auto;
+        @include mediaquery(null,$sm){
+            top:60px;
+        }
     }    
     .menuicon{
         @include position(absolute,$right:20px,$top:0px);
@@ -42,7 +76,7 @@ header{
             content: "";
             @include position(absolute,$right:0%,$top:0);
             height: 1px;   
-            width: 18px;   
+            width: 20px;   
             background:rgba(white,1);    
         }
         .bar{
