@@ -25,7 +25,7 @@
                             <i># Tanawin</i>
                         </span>
                     </div>
-                    <h1 class="h1title">Aquqrium poetry workshop</h1>
+                    <h1 class="h1title">Aquarium poetry workshop</h1>
                     <div class="title-line"></div>            
                 </div>
         </div>
@@ -116,7 +116,7 @@
                     <figure>
                         <img src="dist/images/aquarium/img2.png">
                         <figcaption>
-                            Twin Pines, Level Distance by Zhao Mengfu via metmuseum.org
+                            <i>Twin Pines, Level Distance</i> by Zhao Mengfu via metmuseum.org
                         </figcaption>
                     </figure>
                 </div>
@@ -181,6 +181,28 @@
                     <ul class="note-col-3">
                         <li>
                             <div class="fontfix minH">
+                                <b class="fs12">ORIGINAL TEXT BY</b>
+                                <div class="fs20 fen">Aissa Domingo</div>
+                            </div>
+                            <div>
+                                <span>Pumasok ang takipsilm,</span>
+                                <span>Kapaligran ay dumidilm</span>
+                                <span>Nakakapit,</span>
+                                <span>Nogmamasid.</span>
+                                <span>Mag anino'y sadyang dumarami.</span>
+                                <span>Lahat pumapailalim,</span>
+                                <span>Lahat nakaatabay,</span>
+                                <span>Sa bawat agos nakabantay</span>
+                                <span>Sila'y sumasayaw,</span>
+                                <span>Ating natatanaw</span>
+                                <span>Walang pagod, pault-ulit,</span>
+                                <span>Liwanag unti-unting kinkupit</span>
+                                <span>Dahan-dahong hinihila,</span>
+                                <span>Pababa ba o pataas?</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="fontfix minH">
                                 <b class="fs12">TRANSLATION BY</b>
                                 <div class="fs14">CHARMS TIANZON</div>
                             </div>
@@ -207,7 +229,7 @@
                                 <div class="fs12">
                                     THE TEAM OF KEYWORD <br>
                                     DICTIONARY <br>
-                                    OF ASIA CONTEMPORARY ART
+                                    OF ASIAN CONTEMPORARY ART
                                 </div>
                             </div>
                             <div>
@@ -225,28 +247,6 @@
                                 <span>燈光逐漸黯淡</span>
                                 <span>緩慢拉提</span>
                                 <span>是上升 亦或是下降？</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="fontfix minH">
-                                <b class="fs12">ORIGINAL TEXT BY</b>
-                                <div class="fs20 fen">Aissa Domingo</div>
-                            </div>
-                            <div>
-                                <span>Pumasok ang takipsilm,</span>
-                                <span>Kapaligran ay dumidilm</span>
-                                <span>Nakakapit,</span>
-                                <span>Nogmamasid.</span>
-                                <span>Mag anino'y sadyang dumarami.</span>
-                                <span>Lahat pumapailalim,</span>
-                                <span>Lahat nakaatabay,</span>
-                                <span>Sa bawat agos nakabantay</span>
-                                <span>Sila'y sumasayaw,</span>
-                                <span>Ating natatanaw</span>
-                                <span>Walang pagod, pault-ulit,</span>
-                                <span>Liwanag unti-unting kinkupit</span>
-                                <span>Dahan-dahong hinihila,</span>
-                                <span>Pababa ba o pataas?</span>
                             </div>
                         </li>
                     </ul>
@@ -282,7 +282,7 @@
                                 <div class="fs12">
                                     THE TEAM OF KEYWORD <br>
                                     DICTIONARY <br>
-                                    OF ASIA CONTEMPORARY ART
+                                    OF ASIAN CONTEMPORARY ART
                                 </div>
                             </div>
                             <div>
@@ -316,7 +316,7 @@
                     <figure>
                         <img src="dist/images/aquarium/Group 96.png">
                         <figcaption>
-                            Moi Comme Mer (Me as the Sea) 2022<br>
+                            <i>Moi Comme Mer</i> (Me as the Sea) 2022<br>
                             Performance byJeannine Dissirama Bessoga, Filmed by Issay Rodriguez
                         </figcaption>
                     </figure>
@@ -379,7 +379,7 @@
         <section class="bgblack fserif artwork-wrap">
             <div class="text-center"><b class="bdr">PROJECT</b></div>
             <ul class="artwork-list">
-                <li onclick="location.href='aquqrium-poetry-workshop.php'">
+                <li onclick="location.href='Aquarium-poetry-workshop.php'">
                     <strong>01</strong>
                     <div class="tname">AQUARIUM Poetry Workshop</div>
                     <b class="name"></b>

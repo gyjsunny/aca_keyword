@@ -24,8 +24,19 @@
                 
                 <h1 class="h1title">Voice</h1>
                 <div class="title-line"></div>
-                <img src="dist/images/The-footprints-of-Maroon/voice-1.jpg">   <br> <br><br> <br>
-                <img src="dist/images/The-footprints-of-Maroon/voice-2.jpg">             
+                <figure>
+                    <img src="dist/images/The-footprints-of-Maroon/voice-1.jpg">
+                    <figcaption>
+                        Tapas Roy, Untitled- T06/19, 2020, Acrylic on Canvas, 105.5 x 110 cm, Image courtesy of the artist.
+                    </figcaption>
+                </figure>
+                <br> <br><br> <br> 
+                <figure>
+                    <img src="dist/images/The-footprints-of-Maroon/voice-2.jpg">
+                    <figcaption>
+                        Tapas Roy, Untitled- T07/19, 2020, Acrylic on Canvas, 105.5 x 110 cm, Image courtesy of the artist.
+                    </figcaption>
+                </figure>           
             </div>
             <div class="col-xl-8 col-9 col-auto stext">                
                 <div class="lang-box" id="lang-en"></div>

@@ -50,7 +50,8 @@
             4:"Astronesian-Atlas.php",
             5:"The-History-of-the-Territory.php",
             6:"We—In-between-kita-and-kami.php",
-            7:"Aquqrium-poetry-workshop.php"
+            7:"Aquarium-poetry-workshop.php",
+            8:"Aquarium.php"
         }
         $.ajax({
             type: "GET",

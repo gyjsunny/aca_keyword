@@ -11,12 +11,12 @@
         <div class="bread">
             <a href="./">index</a>
             <a href="project.php">PROJECT</a>
-            <a class="active">Aquqrium poetry workshop</a>
+            <a class="active">Aquarium poetry workshop</a>
         </div>        
         <section class="row">
             <div class="col-auto text-center">
                 <h2 class="fs24 mb-2">Issay Rodriguez</h2>
-                <h1 class="h1title">Aquqrium poetry workshop</h1>
+                <h1 class="h1title">Aquarium poetry workshop</h1>
                 <div class="title-line"></div>            
             </div>
         </section> 

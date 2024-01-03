@@ -27,7 +27,6 @@
         flex-wrap: wrap;
         align-items: center;
         width: 100%;
-        cursor: pointer;
     }
     &:not(:first-child){        
         border-top: 1px solid $color0;
@@ -44,10 +43,13 @@
     }
     .td:nth-child(2){
         width: 60%;
+        cursor: pointer;
     }
     .td:nth-child(3){     
         flex:1;   
-        background: no-repeat url(../images/external-link.png) right center / 12px;
+        // background: no-repeat url(../images/external-link.png) right center / 12px;
+        color:#111;
+        font-weight: 700;
     }
 }
 @include mediaquery(null,$sm){

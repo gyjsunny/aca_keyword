@@ -36,6 +36,13 @@
 
                     這本字典的出現並不是為了要指出單一字彙以及其背後意義的重要性，而是透過字彙、字首或、符號或聲音的群集，在後疫情時代，邊界再次被打開的當下，為未來的討論搭起平台。延續自菲利浦對於Dord的那一聲嘆息，這個打亂整本字典秩序的幽靈字，同時也打開了一個未知且充滿可能性的討論空間。
                 </div>
+                <div class="stext">
+                    <p>
+                        The Team of Keyword Dictionary of Asian Contemporary Art<br>
+                        Translator | 黃亮融Huang Liang-jung<br>
+                        2022
+                    </p>
+                </div>
             </div>
         </div>  
         <div class="sponsor bgblack">

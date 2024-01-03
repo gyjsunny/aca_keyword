@@ -302,6 +302,11 @@
                         </li>
                     </ul>
                 </div>
+                <br><br><br>
+                <p class="stext">
+                    Translator | 黃亮融Huang Liang-jung<br>
+                    Proofreading | Thomas Argiro
+                </p>
             </div>
         </div>
     </div>
