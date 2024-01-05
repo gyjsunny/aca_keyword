@@ -141,7 +141,11 @@
                         <b>I. Imaging</b><br>
                         After explaining the type of writing style which will be applied for the day, the instructor asked all participants to close their eyes for a few minutes to recall a significant experience they had in the past, which reminded them of the sea. They then opened their eyes and examined the footage recommended to them for a few minutes.
                         <div class="mb40"></div>
-                        <div class="text-center mb40"><img src="dist/images/aquarium/img3.png"></div>
+                        <div style="max-width: 700px;margin:0 auto 40px">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.youtube.com/embed/Q5uYuwz1FTA?si=BIpC7SBu-m9YX0wP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>    
+                        </div>
                     </p>
                     <p>
                         <b>II. Listing</b><br>

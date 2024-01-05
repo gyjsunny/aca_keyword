@@ -32,36 +32,13 @@
             <div class="mpsrel swiperbox">
                 <div class="swiper photo">
                     <div class="swiper-wrapper">
+                        <?php for($i=1;$i<=51;$i++){?>
                         <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://picsum.photos/1200/1725/?gravity=east">
-                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
+                            <a href="dist/images/Mahila-Zine-7/<?php echo $i;?>.jpg">
+                                <img src="dist/images/Mahila-Zine-7/<?php echo $i;?>.jpg"/> 
                             </a>
                         </div>
-                        <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://picsum.photos/1200/1725/?gravity=east">
-                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
-                            </a>
-                        </div>
-                        <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://picsum.photos/1200/1725/?gravity=east">
-                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
-                            </a>
-                        </div>
-                        <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://picsum.photos/1200/1725/?gravity=east">
-                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
-                            </a>
-                        </div>
-                        <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://picsum.photos/1200/1725/?gravity=east">
-                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
-                            </a>
-                        </div>
-                        <div class="swiper-slide easyzoom easyzoom--overlay">
-                            <a href="https://picsum.photos/1200/1725/?gravity=east">
-                                <img src="https://picsum.photos/1200/1725/?gravity=east" alt=""/> 
-                            </a>
-                        </div>
+                        <?php } ?>
                     </div>
                 </div>   
                 <div class="arrow ltbn">

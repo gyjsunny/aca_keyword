@@ -1,5 +1,5 @@
 @import "base/mixin";
-
+@import "template/embeds";
 
 .name{
     text-transform: uppercase;
@@ -221,7 +221,7 @@ ul.artwork-list{
 
 //loca-and-virtual
 ul.full-text{
-    color:white;
+    // color:white;
     li{
         border-bottom: 1px solid #d8d8d8;
         margin-bottom: 16px;
@@ -229,7 +229,7 @@ ul.full-text{
         padding:16px 0;
     }
     li a{
-        color:white;
+        color:black;
         font-family: $fontSerif;
         font-weight: 700;
         font-size: 28px;
@@ -244,7 +244,7 @@ ul.full-text{
         @include position(absolute,$top:25px,$right:0);
         width: 16px;
         height: 16px;
-        background:no-repeat url(../images/plus.png) center / contain;
+        background:no-repeat url(../images/plus_bk.png) center / contain;
     }
     li.active .dwbtn{
         transform: rotate(45deg);
@@ -260,7 +260,8 @@ ul.full-text{
         margin:0 auto;
         height: 40px;
     }
-    .swiper-pagination-bullet{
+    .swiper-pagination-bullet,
+    .video-name li{
         width: 30%;
         height: 40px;
         background-color: #111;
@@ -274,17 +275,19 @@ ul.full-text{
     .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:nth-child(2){
         margin:0 5%;
     }
-    .swiper-pagination-bullet-active{
+    .swiper-pagination-bullet-active,
+    .video-name li.active{
         opacity: 1;
     }
     .video-name{
         width: 100%;
         display: flex;
         z-index: 12;
-        pointer-events: none;
+        // pointer-events: none;
         @include position(absolute,$left:0,$top:-5px);
         li{
             flex:0 0 30%;
+            cursor: pointer;
         }
         li:nth-child(2){
             margin:0 5%;

@@ -36,41 +36,16 @@
         </section> 
         <section class="videoWrap mpsrel mb80">
             <div class="swiperbox mpsrel">
-                <div class="swiper swiper-youtube-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="video-container" data-id="Y4K6nTXW-0U">
-                                <div class="video-iframe"></div>
-                                <div class="video-play"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="video-container" data-id="jz2-oei_Fr8">
-                                <div class="video-iframe"></div>
-                                <div class="video-play"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="video-container" data-id="jz2-oei_Fr8">
-                                <div class="video-iframe"></div>
-                                <div class="video-play"></div>
-                            </div>
-                        </div>
+                <div class="swiper-youtube-container">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <div id="player"></div>
                     </div>
                 </div>
-                <div class="arrow ltbn">
-                    <img src="dist/images/chevron-left.png">
-                    <i>PREV</i>
-                </div>
-                <div class="arrow rtbn">
-                    <i>NEXT</i>
-                    <img src="dist/images/chevron-right.png">
-                </div>  
                 <div class="control-btn mpsrel">
                     <ul class="video-name">
-                        <li>KITA</li>
-                        <li>KAMI</li>
-                        <li>IN BETWEEN KITA AND KAMI</li>
+                        <li id="play2">KITA</li>
+                        <li id="play1">KAMI</li>
+                        <li id="play3">IN BETWEEN KITA AND KAMI</li>
                     </ul>
                     <div class="swiper-pagination yotube-dot"></div>
                 </div>
@@ -261,7 +236,7 @@
                     <b class="fs18">Kita 與 Kami 之間</b><br><br>
                     由於群體之間的你我有別，而突顯個體差異的背景，而非形成單一的一體。因此我群作指涉的有時候是kita有的時候是kami，我群的概念蘊含著彼此的差異與彈性。而我在族語中所學習到的kita／kami這組同義字詞中內嵌的差異性，也教會了我在接觸不同文化群體時作為彼此相互關照的起點。<br><br>
 
-                    2019，我由於打開-當代藝術工作站與馬來西亞COAC（Center for Orang Asli Concerns；半島原住民關懷中心）合作的跨國交流計畫《KANTA Portraits馬來西亞—台灣交流計劃》，去到馬來半島（Malay Peninsula），造訪馬來半島上霹靂州庫內村（Kampung Cunex）的Temiar部落、雪蘭莪州Lanjan山旁特姆村的Temuan族人、彭亨州雲彬Jemeri村的耶坤族，及加厘島（Carey）布本村的瑪美里族（Mah Meri tribe），以自身原住民處境為鏡進行對話。其中在探訪上霹靂州庫內村（Kampung Cunex）的Temiar部落的過程中，有幾個晚上，我被邀請一起共同參與他們的傳統儀式。儀式的執行是在沒有任何亮光的傳統建築中，儀式開始前只有主持儀式的Atok Long面前的幾根蠟燭供給族人進入就位的光，待儀式開始蠟燭就會熄滅，只有月光透過茅草與木頭穿進室內時才偶有亮光。做為以影像紀錄為創作方法的創作者，幾乎不可能在儀式中進行拍攝，事前我也被告知不能進行任何形式的拍攝紀錄、錄音等。儀式在黑暗中進行，耳邊充滿著族人的歌聲、樂器聲與舞蹈聲，每次為時1個多小時，每此在黑暗中我總是感受到莫名的迷離感。接近尾聲時，所有人會輪流接受經由葉子所留下的水浸過全身，我也在每一次被邀請前去透過水接受神靈的庇護。儀式結束後族人告訴我，由於我也浸過儀式中的水，我也成為他們的一份子，並且有一些規範需要遵守。<br>
+                    2019，我由於打開-當代藝術工作站與馬來西亞COAC（Center for Orang Asli Concerns；半島原住民關懷中心）合作的跨國交流計畫《KANTA Portraits馬來西亞—台灣交流計劃》，去到馬來半島（Malay Peninsula），造訪馬來半島上霹靂州庫內村（Kampung Cunex）的Temiar部落、雪蘭莪州Lanjan山旁特姆村的Temuan族人、彭亨州雲彬Jemeri村的耶坤族，及加厘島（Carey）布本村的瑪美里族（Mah Meri tribe），以自身原住民處境為鏡進行對話。其中在探訪上霹靂州庫內村（Kampung Cunex）的Temiar部落的過程中，有幾個晚上，我被邀請一起共同參與他們的傳統儀式。儀式的執行是在沒有任何亮光的傳統建築中，儀式開始前只有主持儀式的Atok Long面前的幾根蠟燭供給族人進入就位的光，待儀式開始蠟燭就會熄滅，只有月光透過茅草與木頭穿進室內時才偶有亮光。做為以影像紀錄為創作方法的創作者，幾乎不可能在儀式中進行拍攝，事前我也被告知不能進行任何形式的拍攝紀錄、錄音等。儀式在黑暗中進行，耳邊充滿著族人的歌聲、樂器聲與舞蹈聲，每次為時1個多小時，每此在黑暗中我總是感受到莫名的迷離感。接近尾聲時，所有人會輪流接受經由葉子所留下的水浸過全身，我也在每一次被邀請前去透過水接受神靈的庇護。儀式結束後族人告訴我，由於我也浸過儀式中的水，我也成為他們的一份子，並且有一些規範需要遵守。<br><br>
                     幾天後，我們聊到儀式進行的過程，部落中的族人主動提出，他們可以在有燈光的部落活動中心重現他們在黑暗中所做的活動讓我拍攝下來，我感到非常訝異他們願意重現儀式的整個過程。但在我們彼此確認過重現儀式過程與被攝影機拍攝下來無關乎信仰、與神靈間的交流，單純出於他們想要使我了解與被紀錄的原由後，我豁然理解了這個「重現」活動的邏輯，他們可以「表演」給我看，並且我們彼此都確認了這只是一個「表演」，這個「表演」可以被紀錄與分享。它的再製、傳播出去後成為其他人了解他們文化的途徑，但這實際上與他們的生活與信仰脫離。<br><br>
 
                     在這個「表演」的活動中，我們共同度過了一個愉快的夜晚。事前長輩們還討論著需不需要穿著傳統服表演讓攝影機可以有畫面拍攝，但大家最後一起決定以最方便舒服的服裝重現就好，因為他們平常作儀式時也是這樣子的。在相同的服裝、樂音與聲響中，我拍攝下了族人們作著相同的動作，表演出來的過程，但是場域不同、空間感不同，與之相稱的我與他們在當中的角色也出現了轉化。我理所當然地，一直都是一個從另一個國家、族群與文化所來到他們生活中的人，即使有所分別，但在儀式裡我被接納共同接受神靈的庇佑成為他們的一份子。但是在表演、拍攝、傳播與創作之中，同樣的分別確是必須明確被認知與界定出來，在「表演」中我們能夠模擬他們在黑暗中的活動與感受，但那儀式中才能帶來的狀態與交流，只有在進入那個幾乎不見光的屋子裡，沒有任何攝影紀錄，以及他們與神靈交流時才能真的捕捉到。<br><br>
@@ -304,77 +279,55 @@
                 </div>
                 <br><br><br>
                 <p class="stext">
-                    Translator | 黃亮融Huang Liang-jung<br>
+                    Translator | 黃亮融 Alex Huang<br>
                     Proofreading | Thomas Argiro
                 </p>
             </div>
         </div>
     </div>
     <?php include "quote/template/footer.php"; ?>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="dist/js/swiper-bundle.min.js"></script>
     <script>
-        $(function($) {
-        if ($('.swiper-youtube-container').length > 0) {
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/iframe_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-            // 3. This function creates an <iframe> (and YouTube player)
-
-            var initPlayer = function(element) {
-                var player = element.querySelector('.video-iframe');
-                var button = element.querySelector('.video-play');
-                var ytplayer = new YT.Player(player, {
-                    playerVars: {
-                        'autoplay': 0,
-                        'modestbranding': 1,
-                        'controls': 0,
-                        'rel': 0,
-                    },
-                    videoId: element.dataset.id
-                });
-
-                button.addEventListener('click', function() {
-                    console.log(ytplayer);
-                    console.log(ytplayer.getPlayerState());
-                    ytplayer.playVideo();
-                    switch (ytplayer.getPlayerState()) {
-                        case 1:
-                            ytplayer.stopVideo();
-                            break;
-                        default:
-                            ytplayer.playVideo();
-                            break;
-                    }
-                });
-            };
-
-            var swiper_youtube = new Swiper('.swiper-youtube-container', {
-                navigation: {
-                    prevEl: ".arrow.ltbn",
-                    nextEl: ".arrow.rtbn",
-                },
-                pagination: {
-                    el: '.yotube-dot',
-                    clickable: true,
-                },
-
-            }).on('slideChange', function() {
-                var isVideo = swiper_youtube.slides[swiper_youtube.previousIndex].querySelector('.video-container');
-                if (isVideo) {
-                    YT.get(isVideo.querySelector('iframe').id).stopVideo();
-                    console.log(isVideo.querySelector('iframe').id);
-                }
+        var player;
+        function onYouTubeIframeAPIReady() {
+            // 一般使用 影片的id寫在js裡
+            player = new YT.Player('player', {
+            height: '390', // 高度預設值為390，css會調成responsive
+            width: '640', // 寬度預設值為640，css會調成responsive
+            videoId: '5s9gl3XdtOE',
+            events: {
+                'onReady': onPlayerReady
+            }
             });
-
-            window.onYouTubePlayerAPIReady = function() {
-                var container = document.querySelectorAll('.video-container');
-                for (var i = 0; i < container.length; i++) {
-                    initPlayer(container[i])
-                }
-            };
         }
+        function onPlayerReady(e) {
+            // 為確保瀏覽器上可以自動播放，要把影片
+            const play1 = document.getElementById('play1');
+            const play2 = document.getElementById('play2');
+            const play3 = document.getElementById('play3');
+
+            play1.addEventListener('click', () => {
+                let current = e.target.getCurrentTime();
+                e.target.seekTo(0);
+                $("#play1").addClass('active');
+                $("#play2,#play3").removeClass('active');
+            });
+            play2.addEventListener('click', () => {
+                let current = e.target.getCurrentTime();
+                e.target.seekTo(519);
+                $("#play2").addClass('active');
+                $("#play1,#play3").removeClass('active');
+            });
+            play3.addEventListener('click', () => {
+                let current = e.target.getCurrentTime();
+                e.target.seekTo(248);
+                $("#play3").addClass('active');
+                $("#play1,#play2").removeClass('active');
+            });
+        }
+
+        $(function() {
     });
     </script>
 </body>

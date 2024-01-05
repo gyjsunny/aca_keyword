@@ -1,7 +1,7 @@
 <footer>     
     <b class="copyright">
         Copyright © 2023 Artists. All rights reserved.<br>
-        Logo design by Rajnish Chhanesh, all rights reserved. 
+        Slogan Design by Rajnish Chhanesh, all rights reserved. 
     </b><br><br>
     Special Thanks Artemas Liu
 </footer>
