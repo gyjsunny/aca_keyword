@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="dist/css/project.css">
 </head>
 
-<body>
+<body ONCONTEXTMENU="return false" onSelectStart="return false">
     <?php
     // include "quote/template/added.php";
     include "quote/template/nav.php";
@@ -14,7 +14,7 @@
         <div class="bread">
             <a href="./">index</a>
             <a href="project.php">PROJECT</a>
-            <a href="The-footprints-of-Maroon.php">The footprints of Maroon</a>
+            <a href="The-footprints-of-Maroon.php">The Footprints of Maroon</a>
             <a class="active">Mahila Zine 7</a>
         </div>        
         <section class="row">

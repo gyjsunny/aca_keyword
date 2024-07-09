@@ -11,12 +11,12 @@
         <div class="bread">
             <a href="./">index</a>
             <a href="project.php">PROJECT</a>
-            <a class="active">The footprints of Maroon</a>
+            <a class="active">The Footprints of Maroon</a>
         </div>        
         <section class="row">
             <div class="col-auto text-center">
                 <h2 class="fs24 mb-2">Li Kuei-Pi</h2>
-                <h1 class="h1title">The Footprints Of Maroon</h1>
+                <h1 class="h1title">The Footprints of Maroon</h1>
                 <div class="title-line"></div>
                 <img src="dist/images/The-footprints-of-Maroon/maroon.png">                
             </div>
@@ -64,7 +64,7 @@
         <section class="bgblack fserif artwork-wrap">
             <div class="text-center"><b class="bdr">PROJECT</b></div>
             <ul class="artwork-list">
-                <li onclick="location.href='voice.php'">                    
+                <li onclick="location.href='Voice.php'">                    
                     <strong>01</strong>
                     <div class="tname">Voice</div>
                     <b class="name"><a href="member.php?name=Member-Tapas-Roy">Tapas Roy</a></b>

@@ -89,7 +89,7 @@
                         <div class="td fs48">Visuality</div>
                         <a href="member.php?name=Member-Mrinal-Kulkarni" class="td fs16">Mrinal Kulkarni</a>
                     </div>
-                    <div class="table-row" onclick="location.href='voice.php'">
+                    <div class="table-row" onclick="location.href='Voice.php'">
                         <b class="td fs48 drop">V</b>
                         <div class="td fs48">Voice</div>
                         <a href="member.php?name=Member-Tapas-Roy" class="td fs16">Tapas Roy</a>

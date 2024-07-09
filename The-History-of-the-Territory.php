@@ -44,7 +44,7 @@
                 </figure>
                 <div class="mb80"></div>
                 <p class="stext">                    
-                    The existence of mixed rice itself cannot be separated from the composition of the different meal recipes that were once served on different plates on a big tray. This was called a rijsttafel, literally translated from the Dutch word, which means "<a href="#" target="_blank">rice table <i class="fa-solid fa-headphones"></i> </a> Such a serving method displays several side dishes from various regions that are usually accompanied by rice on one plate, for example, or rice and sayur lodeh. The display feature of rijsttafel is like a colonial exhibition (Koloniale Tentoonstelling) in a culinary sense. It brings gastronomic luxury to connoisseurs enticed by the exoticism of locally processed food resources from the colonized regions. Those various traditional plates are Rendang from West Sumatra, Babi Kecap/Semur mixed Indo-Chinese, Gado-gado from Jakarta, Karedok from the Sundanese, Sate Ayam from the Javanese, Telur Balado from Jakarta and the Sundanese, and so on.
+                    The existence of mixed rice itself cannot be separated from the composition of the different meal recipes that were once served on different plates on a big tray. This was called a rijsttafel, literally translated from the Dutch word, which means "<a href="javascript:playAudio1();">rice table <i class="fa-solid fa-headphones"></i> </a> Such a serving method displays several side dishes from various regions that are usually accompanied by rice on one plate, for example, or rice and sayur lodeh. The display feature of rijsttafel is like a colonial exhibition (Koloniale Tentoonstelling) in a culinary sense. It brings gastronomic luxury to connoisseurs enticed by the exoticism of locally processed food resources from the colonized regions. Those various traditional plates are Rendang from West Sumatra, Babi Kecap/Semur mixed Indo-Chinese, Gado-gado from Jakarta, Karedok from the Sundanese, Sate Ayam from the Javanese, Telur Balado from Jakarta and the Sundanese, and so on.
                 </p>
                 <figure>
                     <img src="dist/images/astronesian/img2.png">
@@ -52,7 +52,7 @@
                 </figure>
                 <div class="mb80"></div>
                 <p class="stext">
-                    A few decades later, the concept of rijsttafel was changed to mixed rice, more commonly called nasi rames. This term comes from the <a href="#">warung – warteg (Warung Tegal) <i class="fa-solid fa-headphones"></i> </a> – or food stall that exists in many capital cities of Indonesian provinces. Rames comes from the acronym in Javanese, Ora Mesti, which means that you “don't have to” use the same side dishes with rice. The window display in the food stall is very unique. You need only to point directly at which food you want to eat. It is listed in the columns and rows of all menus. This also happens in the Padang food stalls, of a Minang or West Sumatranese restaurant. The Warteg and Padang restaurants that are spread in most big cities in Indonesia indicate the migration numbers of the Javanese and Minang ethnic populations. The settled migrant needs the soul of index cooking taste to satisfy the longing for traditional foods.
+                    A few decades later, the concept of rijsttafel was changed to mixed rice, more commonly called nasi rames. This term comes from the <a href="javascript:playAudio2()">warung – warteg (Warung Tegal) <i class="fa-solid fa-headphones"></i> </a> – or food stall that exists in many capital cities of Indonesian provinces. Rames comes from the acronym in Javanese, Ora Mesti, which means that you “don't have to” use the same side dishes with rice. The window display in the food stall is very unique. You need only to point directly at which food you want to eat. It is listed in the columns and rows of all menus. This also happens in the Padang food stalls, of a Minang or West Sumatranese restaurant. The Warteg and Padang restaurants that are spread in most big cities in Indonesia indicate the migration numbers of the Javanese and Minang ethnic populations. The settled migrant needs the soul of index cooking taste to satisfy the longing for traditional foods.
                 </p>
                 <div class="mb80"></div>
                 <b class="fs18">Rumah (House)</b><br><br><br>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="mb80"></div>
                 <p class="stext">
-                    I've researched a career path for migrants, starting from selling cigarettes all around (walking), selling drinks (by bicycle; usually coffee sachets or carts), and finally selling fried rice. How fast their career develops depends on the particular merchant community. This merchant community is a space for sharing information, such as: which areas have the potential to get a lot of buyers; what events will happen in the near future; services that can increase the selling price; or even just chit-chat about the latest news from social media. This community is not an organization that has a registered structure and membership, but a kind of hangout place at certain hours, before or after traders start their activities. This fluid initiative stems from the common origin of the migrant merchants, mostly from Madura, or several cities on the north coast of Java.<br>
+                    I've researched a career path for migrants, starting from selling cigarettes all around (walking), selling drinks (by bicycle; usually coffee sachets or carts), and finally selling fried rice. How fast their career develops depends on the particular merchant community. This merchant community is a space for sharing information, such as: which areas have the potential to get a lot of buyers; what events will happen in the near future; services that can increase the selling price; or even just chit-chat about the latest news from social media. This community is not an organization that has a registered structure and membership, but a kind of hangout place at certain hours, before or after traders start their activities. This fluid initiative stems from the common origin of the migrant merchants, mostly from Madura, or several cities on the north coast of Java.<br><br>
                     Gathering practices like this happen not only to merchants, but also in almost every strata of society. The simplest gathering practice is hanging out, usually called nongkrong (literally translated as "squat"), which can happen in many places and times around the city. Through hanging out, we can practice manifesting and bringing together ideas that are parallelly connected and constantly evolving. The result may be just a slang expression or a way doing something, but it is a product of urban culture that becomes the identity of a particular district.
                 </p>
                 <div class="mb80"></div>
@@ -91,7 +91,13 @@
                         <img src="dist/images/astronesian/img4.png">
                         <figcaption>Siasat, Indonesian, 2021 Image courtesy: Angga Cipta</figcaption>
                     </figure>
-                    <div class="mb80"></div>
+                </div>
+                <div class="mb80"></div>
+                <p class="stext">
+                    Meanwhile, in regard to the art scene, gathering can be an appointment at the opening of an exhibition, biennale or festival. The event is not very important, but attendance for the purpose of meetings and reunions is the main agenda. But there are also many art events whose ideas start from a hangout. This practice could be described as a movement, and usually comes from college students. If we see an Indonesian timeline history that mentions activism from college students, there must be included some demonstrations to overthrow the power of a president who has become the leader of an authoritarian regime. It is also the same way concerning what the art students are making as their movement, that we can name GSRB (Gerakan Seni Rupa Baru or Indonesia Art Movement), which has a mission to break the boundaries of the medium in fine arts.
+                </p>
+                <div class="mb80"></div>
+                <div class="text-center">                   
                     <figure>
                         <img src="dist/images/astronesian/img5.png">
                         <figcaption>
@@ -141,6 +147,22 @@
         
     </div>
     <?php include "quote/template/footer.php"; ?>
+    <script>
+        const audio1 = document.createElement("audio");
+        audio1.src = "dist/voice/01NasiGorengAyam-ChickenFriedRice.mp3";
+
+        const audio2 = document.createElement("audio");
+        audio2.src = "dist/voice/02RMKaryaBundo.m4a";
+
+        function playAudio1() {
+            audio1.play();
+            audio2.pause();
+        }
+        function playAudio2() {
+            audio1.pause();
+            audio2.play();
+        }
+    </script>
 </body>
 
 </html>

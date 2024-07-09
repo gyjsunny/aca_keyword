@@ -105,7 +105,11 @@
                     LOOB - The Filipino Within: A Preliminary Investigation into a Pre-theological Moral Anthropology
                 </summary>
                 <div class="mb40"></div>
-                <img src="dist/images/aquarium/img1.png" class="w100">
+                <div style="max-width: 700px;margin:0 auto 40px">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/ahUCBOLZ5a4?si=f7YQace2P2Wa2v0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>    
+                </div>
                 <div class="mb40"></div>
                 <p class="stext">
                     One "Loob" can relate to another only through communication and sharing in some external thing common to both of them. This can take the form of corporeality, language, material objects, and interrelation among means. Moving between “malay” and “dama”, poetry became our form of externalization. While the concept of “Loob” points to inner worlds that tend to be opaque, there are some parts we can understand through the phenomenon of similarity, difference and opacity.<br>                    
@@ -143,7 +147,7 @@
                         <div class="mb40"></div>
                         <div style="max-width: 700px;margin:0 auto 40px">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://www.youtube.com/embed/Q5uYuwz1FTA?si=BIpC7SBu-m9YX0wP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/iMiR4GgnWUU?si=vhLpBaLF1CrCk4Bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>    
                         </div>
                     </p>
@@ -316,14 +320,16 @@
                     As part of Fete de la Science 2022 with Muséum d'Histoire naturelle de La Rochelle, a <a href="https://vimeo.com/761015547"  target="_blank">workshop</a> with Classe Preparatoire aux Beaux Arts of Lycée René Josué Valin was built in collaboration with the poet, Jeannine Dissirama Bessoga (TG). By finding a space for reflection on one's relationship with the sea, both encouraged students to engage in poetry and VR painting at Centre Intermondes, France where the poems have also been exhibited through a listening and reading station.
                     The workshop focused on the convivial exploration of the medium and the performative aspect of painting in three dimensional space.
                 </div>
-                <div class="text-center mb120">
-                    <figure>
-                        <img src="dist/images/aquarium/Group 96.png">
+                <div style="max-width: 700px;margin:0 auto 40px" class="mb120">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/dsM90H8KU3I?si=Cy8VoDeLtMVxFSEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>  
+                    <figure style="display: block;margin-top:10px;">
                         <figcaption>
                             <i>Moi Comme Mer</i> (Me as the Sea) 2022<br>
                             Performance byJeannine Dissirama Bessoga, Filmed by Issay Rodriguez
                         </figcaption>
-                    </figure>
+                    </figure> 
                 </div>
             </div> 
             <div class="col-xl-8 col col-auto">                

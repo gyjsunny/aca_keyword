@@ -12,7 +12,7 @@
         <div class="bread">
             <a href="./">HOME</a>
             <a href="project.php">PROJECT</a>
-            <a href="The-footprints-of-Maroon.php">The footprints of Maroon</a>
+            <a href="The-footprints-of-Maroon.php">The Footprints of Maroon</a>
             <a class="active">Posthuman Body and Visuality: local and virtual interface</a>
         </div>        
         <section class="row">

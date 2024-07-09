@@ -16,7 +16,7 @@
         <ul class="project-list bgblack fserif">
             <li>
                 <a href="The-footprints-of-Maroon.php">
-                    <div class="tname">The Footprints Of Maroon</div>
+                    <div class="tname">The Footprints of Maroon</div>
                     <div class="name">by <b>LI Kuei-Pi</b></div>
                 </a>
             </li>
