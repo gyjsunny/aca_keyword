@@ -280,18 +280,33 @@ ul.artwork-list .tag {
   }
 }
 
-ul.full-text li {
+ul.full-text > li {
   border-bottom: 1px solid #d8d8d8;
   margin-bottom: 16px;
   position: relative;
   padding: 16px 0;
 }
-ul.full-text li a {
+ul.full-text > li a {
   color: black;
   font-family: "Arimo", sans-serif;
   font-weight: 700;
   font-size: 28px;
   display: block;
+}
+ul.full-text ol {
+  font-size: 14px;
+}
+ul.full-text ol li {
+  margin-bottom: 8px;
+}
+ul.full-text ol b {
+  width: 1em;
+  margin-right: 8px;
+  display: inline-block;
+}
+ul.full-text sub {
+  vertical-align: super;
+  font-size: 12px;
 }
 ul.full-text .stext {
   padding-top: 30px;
@@ -424,38 +439,56 @@ ul.full-text li.active .dwbtn {
   margin-top: 200px;
 }
 
-.ytWrap {
+#Wapper.ytbg {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#Wapper.ytbg::before {
+  content: "";
+}
+#Wapper.ytbg .bread a {
   color: white;
 }
-.ytWrap .bread a {
+#Wapper.ytbg .bread a:not(:last-child):after {
+  background-color: white;
+}
+#Wapper.ytbg .title-line {
+  background-color: white;
+}
+#Wapper.ytbg section, #Wapper.ytbg .bread {
+  z-index: 5;
+  position: relative;
   color: white;
 }
-.ytWrap .bread a:not(:last-child):after {
-  background-color: white;
+#Wapper.ytbg .ratioA {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 0.4em;
 }
-.ytWrap .title-line {
-  background-color: white;
-}
-.ytWrap .title-note {
-  text-transform: uppercase;
-  font-family: "Arimo", sans-serif;
-  line-height: 2.5;
-  margin-bottom: 40px;
-  font-size: 12px;
-  letter-spacing: 0.2em;
-}
-.ytWrap ul.note-col-3 li:not(.w100), .ytWrap ul.note-col-2 li:not(.w100) {
-  padding-top: 0;
+#Wapper.ytbg footer {
+  z-index: 5;
+  position: relative;
 }
 
-.ytbg {
-  z-index: -1;
+.bg_video {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/aquarium/aquarium-banner.png) center/cover;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 56.25vw;
+  /* 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh;
+  /* 16/9*100 = 177.77 */
+  opacity: 0;
+}
+
+.bg_video.loaded {
+  opacity: 1;
 }
 
 ul.note1 {
@@ -480,37 +513,39 @@ ul.note-col-2 {
   text-align: center;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 18px 0;
+  padding: 18px 0 32px;
 }
 ul.note-col-3 .fontfix.minH,
 ul.note-col-2 .fontfix.minH {
-  min-height: 6em;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
+  font-size: 12px;
 }
-ul.note-col-3 b.fs12,
-ul.note-col-2 b.fs12 {
+ul.note-col-3 .fontfix.minH b, ul.note-col-3 .fontfix.minH div,
+ul.note-col-2 .fontfix.minH b,
+ul.note-col-2 .fontfix.minH div {
+  height: 2.2em;
+  line-height: 1.1em;
+  margin-bottom: 0.25em;
   display: block;
   letter-spacing: 0.2em;
-  margin-bottom: 1em;
-}
-ul.note-col-3 .fs20.fen,
-ul.note-col-2 .fs20.fen {
-  font-weight: 500;
 }
 ul.note-col-3 div > span,
 ul.note-col-2 div > span {
   display: block;
   line-height: 1.2;
-  margin-bottom: 1em;
   font-weight: 500;
+}
+ul.note-col-3 div > span:not(:last-child),
+ul.note-col-2 div > span:not(:last-child) {
+  margin-bottom: 1em;
 }
 ul.note-col-3 li:not(.w100),
 ul.note-col-2 li:not(.w100) {
-  padding: 1.3em;
+  padding: 0 0.4em;
 }
 ul.note-col-3 li.w100,
 ul.note-col-2 li.w100 {
-  padding-top: 60px;
+  padding-top: 40px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;

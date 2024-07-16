@@ -42,6 +42,13 @@
                         <div class="td fs48">Kita</div>
                         <a href="member.php?name=Member-Posak-Jodian" class="td fs16">Posak Jodian</a>
                     </div>                    
+                </li>                
+                <li class="table">
+                    <div class="table-row" onclick="location.href='Mahila-Zine-7.php'">
+                        <b class="td fs48 drop">L</b>
+                        <div class="td fs48">Lockdown</div>
+                        <a href="member.php?name=Member-Vichar-K-Achaar" class="td fs16">Vichar K Achaar</a>
+                    </div>                 
                 </li>
                 <li class="table">
                     <div class="table-row" onclick="location.href='Aquarium.php'">
@@ -62,13 +69,6 @@
                         <b class="td fs48 drop">R</b>
                         <div class="td fs48">Rumah</div>
                         <a href="member.php?name=Member-Angga-Cipta" class="td fs16">Angga Cipta</a>
-                    </div>                 
-                </li>
-                <li class="table">
-                    <div class="table-row" onclick="location.href='Mahila-Zine-7.php'">
-                        <b class="td fs48 drop">L</b>
-                        <div class="td fs48">Lockdown</div>
-                        <a href="member.php?name=Member-Vichar-K-Achaar" class="td fs16">Vichar K Achaar</a>
                     </div>                 
                 </li>
                 <li class="table">

@@ -28,3 +28,7 @@
 			</ul>
 		</nav>	
 	</header>	
+	<div class="header_logo">
+		<img src="dist/images/logo/black.svg" class="bk">
+		<img src="dist/images/logo/white.svg" class="wh">
+	</div>

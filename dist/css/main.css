@@ -709,6 +709,23 @@ header ul.mmenu > li:hover > a, header ul.mmenu > li.active > a {
     padding: 16px 16px 32px;
   }
 }
+.header_logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 99;
+}
+.header_logo img.wh {
+  display: none;
+}
+
+.logoWh .header_logo img.bk {
+  display: none;
+}
+.logoWh .header_logo img.wh {
+  display: block;
+}
+
 footer {
   background-color: #222;
   color: white;

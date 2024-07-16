@@ -133,3 +133,18 @@ header{
         }
     }
 }
+.header_logo{
+    @include position(absolute,$left:16px,$top:16px);
+    z-index: 99;
+    img.wh{
+        display: none;
+    }
+}
+.logoWh .header_logo{
+    img.bk{
+        display: none;
+    }
+    img.wh{
+        display: block;
+    }
+}
