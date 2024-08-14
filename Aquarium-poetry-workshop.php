@@ -160,7 +160,7 @@
 
                 <div class="note-wrap">
                     <div class="ratioA">3.</div>
-                    <ul class="note-col-3">
+                    <ul class="note-col-2">
                         <li>
                             <div class="fontfix minH">
                                 <b>ORIGINAL TEXT BY</b>
@@ -206,15 +206,6 @@
                                 <span>A school of fish brings huge shadows</span>
                                 <span>Carrying the whole sea, devoid of colors</span>
                             </div>
-                        </li>
-                        <li>
-                            <div class="fontfix minH">
-                                <b>
-                                    (EN/FIL)<br>EDITING AND TRANSLATIONS BY
-                                </b>
-                                <div>CHARMS TIANZON</div>
-                            </div>
-                            <div></div>
                         </li>
                         <li class="w100 fontfix">
                             ORIGINAL TEXT BY <b>YOUNG SHAU-LOU</b><br>

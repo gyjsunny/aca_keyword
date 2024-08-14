@@ -128,7 +128,7 @@
                 <div class="stext">
                     <p>
                         <b>Aruga</b><br>
-                        As an artist, it was only in 2019 through a residency program experience at Bamboo Curtain Studio, that I started being conscious about the work and engagement I do. I got inspired by the work of Margaret Shiu and her team and took it from there. This artist residency has also helped me connect with Taiwanese artists like Li Kuei Pi who helped us find the flower summaryet for a project we did in Taipei. Currently, I am drawn to experimental projects and volunteer work with art & biodiversity and conservation networks that enable me to use some creative or digital skills.<br>
+                        As an artist, it was only in 2019 through a residency program experience at Bamboo Curtain Studio, that I started being conscious about the work and engagement I do. I got inspired by the work of Margaret Shiu and her team and took it from there. This artist residency has also helped me connect with Taiwanese artists like Li Kuei Pi who helped us find the flower summaryet for a project we did in Taipei. Currently, I am drawn to experimental projects and volunteer work with art & biodiversity and conservation networks that enable me to use some creative or digital skills.<br><br>
                         The next Filipino keyword is Aruga. It is the root word for pag-aaruga or “the act of nurturing / caring for.” The participants we have invited are individuals we have already worked with in the past or that we know can greatly relate and apply the concept of “care” in their professional work as artists, archivists, musicians, educators, and museum workers in cultural or biodiversity conservation work.
                     </p>
                     <p>
@@ -316,7 +316,7 @@
             </div>
             <div class="col-xl-8 col-9 col-auto">
                 <div class="stext mb40">
-                    The poems have been published through the project website <a href="https://aquarium.cargo.site/AVAT-2022-Featured-Poems" target="_blank">aquarium.cargo.site</a>. One of the poems written in French has inspired another subproject for KACA.<br>
+                    The poems have been published through the project website <a href="https://aquarium.cargo.site/AVAT-2022-Featured-Poems" target="_blank">aquarium.cargo.site</a>. One of the poems written in French has inspired another subproject for KACA.<br><br>
                     As part of Fete de la Science 2022 with Muséum d'Histoire naturelle de La Rochelle, a <a href="https://vimeo.com/761015547"  target="_blank">workshop</a> with Classe Preparatoire aux Beaux Arts of Lycée René Josué Valin was built in collaboration with the poet, Jeannine Dissirama Bessoga (TG). By finding a space for reflection on one's relationship with the sea, both encouraged students to engage in poetry and VR painting at Centre Intermondes, France where the poems have also been exhibited through a listening and reading station.
                     The workshop focused on the convivial exploration of the medium and the performative aspect of painting in three dimensional space.
                 </div>

@@ -78,7 +78,7 @@
                 </li>
                 <li onclick="location.href='Local-and-virtual-interface.php'">
                     <strong>03</strong>
-                    <div class="tname">Posthuman Body and Visuality: local and virtual interface</div>
+                    <div class="tname">Posthuman Body and Visuality: Local and virtual interface</div>
                     <b class="name"><a href="member.php?name=Member-Mrinal-Kulkarni">Mrinal Kulkarni</a></b>
                     <div class="tag"><a href="./"># Post Humanist Body # Visuality</a></div>                   
                 </li>
