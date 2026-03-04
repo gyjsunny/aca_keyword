@@ -177,6 +177,17 @@
         max-width: 58em;
     }
 }
+.tab-wrap{
+    color:rgba(#fff,0.25);
+    margin-bottom: 90px;
+    >div {
+        border-bottom:1px solid rgba(#fff,0.25);
+    }
+    .active{
+        color:#fff;
+        border-color:#fff; 
+    }
+}
 .tag{
     span{
         display: inline-block;

@@ -394,6 +394,30 @@ p{
   background: no-repeat url(../images/external-link-wh.png) right center / 12px;
 }
 
+//頁簽
+.tab-wrap{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  > div{
+    padding:0 12px 12px;
+    margin:0 20px;
+    cursor: pointer;
+  }
+  span{
+      display: block;
+      line-height: 1.625;
+  }
+  .tw{
+    font-weight: 500;
+  }
+  .en{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+  }
+}
+
 //注釋
 ul.note{
   li{
