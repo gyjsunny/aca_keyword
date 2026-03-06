@@ -20,8 +20,8 @@
                 <div class="mb-2 fs24">
                     <b>Mrinal Kulkarni</b>
                     <span class="tag">
-                        <i># Post Humanist</i> 
-                        <i># Body Visuality</i>
+                        <i># Post Humanist Body</i> 
+                        <i># Visuality</i>
                     </span>
                 </div>                
                 <h1 class="h1title fs124">Posthuman Body and Visuality: Local and virtual interface</h1>

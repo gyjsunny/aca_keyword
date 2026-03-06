@@ -90,14 +90,14 @@
                             
                         }
                         $('.member-info .mail').html(`${template}`)
-                        if(value.photo == "Member-LI-Kuei-Pi" || value.photo == "Member-Rikey-Tenn-1" || value.photo == "Member-Issay-Rodriguez"){
+                        if(value.photo == "Member-LI-Kuei-Pi" || value.photo == "Member-Rikey-Tenn-1" || value.photo == "Member-Rikey-Tenn-2" || value.photo == "Member-Issay-Rodriguez"){
                             template = ` <h3>${value.project}</h3> `
                             artwork.innerHTML = `${template}`;
                             console.log(template)
                         }else{
                             if(i <= 10) template = `<h5>The Footprints of Maroon</h5>`;
                             else if(i >=11 && i<=13) template = `<h5>Astronesian Atlas</h5>`;
-                            else if(i >=14 && i<=28) template = `<h5>AQUARIUM</h5>`;
+                            else template = `<h5>AQUARIUM</h5>`;
                             template += `
                             <h3 class="mt">${value.project}</h3>
                             <div class="tag">${tags}</div> `

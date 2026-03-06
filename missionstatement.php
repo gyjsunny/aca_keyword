@@ -16,7 +16,7 @@
             <div class="col-xl-8 col-9 col-auto">
                 <h1 class="h1title">Mission Statement</h1>
                 <div class="title-line"></div>
-                <h2 class="h2title">DORD:THE INTRODUCTION OF KEYWORD DICTIONARY OF ASIAN CONTEMPORARYART</h2>
+                <h2 class="h2title">DORD:THE INTRODUCTION OF KEYWORD DICTIONARY OF ASIAN CONTEMPORARY ART</h2>
                 <div class="stext">
                     <b>"Probably too bad, for why shouldn't dord mean 'density'?"</b>
                     <br><br>
@@ -39,7 +39,7 @@
                 <div class="stext">
                     <p>
                         The Team of Keyword Dictionary of Contemporary Art<br>
-                        Translator | 黃亮融Huang Liang-Jung<br>
+                        Translator | 黃亮融 Huang Liang-Jung<br>
                         2022
                     </p>
                 </div>

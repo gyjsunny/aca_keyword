@@ -135,7 +135,7 @@
                         <b>Nilay</b><br>
                         The last Filipino keyword is Nilay. It is the root word for pagninilay or “the act of reflection / contemplation.” Through the poetry workshop, we exercised skills in sonnet writing to expand our ways of externalizing mental images or inner landscapes of the heart.<br><br>
                         To facilitate this vision, I invited my friend Charms Tianzon, a performance poet, sonneteer and literature professor at De La Salle College of Saint Benilde. For her, every poem she writes is a diary entry; every line is a pump of fresh blood from one's heart and a spark of electricity in the brain. She started writing sonnets when she fell in love. She discovered it through a poetry class but never had the passion for it. It was very challenging for her at first, with feelings of failure during the first attempts. One day, she felt having success in what she thought was a challenge she couldn't overcome. That day was when she had found someone to love. The lovers came and left but her passion for sonnets (and for poetry in general) remained. Soon, she was writing all types of poems and with themes not exclusive to love. Soon, she was writing for her own personal advocacies and her dire desires to make the world a finer place to live in. She joined 100 Thousand Poets for Change (an international grassroots educational non-profit organization that focuses on the arts, especially poetry, music, and the literary arts) and established Spoken Word Manila (a platform that helps various spoken word artists and performance poets in the Philippines).<br>
-                        The Workshop followed seven general phases:<br>
+                        The Workshop followed seven general phases:<br><br>
                         Imaging, Listing, Rhyming, Structuring, Writing, Editing and Sharing
                     </p>
                 </div>
@@ -395,9 +395,10 @@
                     <b class="name"></b>
                     <div class="tag">
                         <a href="./">
-                            <i># Berkumpul dan Bersiasat</i>
-                            <i># Rumah</i>
-                            <i># The Spices of Society</i>
+                            <i># Aurga</i>
+                            <i># Dama</i>
+                            <i># Nilay</i>
+                            <i># Tanawin</i>
                         </a>
                     </div>                    
                 </li>
