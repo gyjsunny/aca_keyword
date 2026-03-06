@@ -222,33 +222,18 @@ ul.artwork-list{
 //loca-and-virtual
 ul.full-text{
     // color:white;
-    > li{
+    li{
         border-bottom: 1px solid #d8d8d8;
         margin-bottom: 16px;
         position: relative;
         padding:16px 0;
     }
-    > li a{
+    li a{
         color:black;
         font-family: $fontSerif;
         font-weight: 700;
         font-size: 28px;
         display: block;
-    }
-    ol {
-        font-size: 14px;
-    }
-    ol li{
-        margin-bottom: 8px;
-    }
-    ol b{
-        width: 1em;
-        margin-right: 8px;
-        display: inline-block;
-    }
-    sub{
-        vertical-align: super;
-        font-size: 12px;
     }
     .stext{
         padding-top: 30px;
@@ -369,63 +354,6 @@ ul.full-text{
         margin-top: 200px;
     }
 }
-//Aquarium-poetry-workshop
-#Wapper.ytbg{
-    position: relative;
-    background-color: rgba(0,0,0,0.8);
-    &::before{
-        content: "";
-        // background:url(../images/aquarium/aquarium-banner.png) center / cover;
-        // width: 100%;
-        // height: 100vh;
-        // @include position(fixed,$left:0,$top:0);
-        // z-index: 1;
-        // opacity: 0.8;
-        // background-color: #000;
-    }
-    .bread a{
-        color:white;
-    }
-    .bread a:not(:last-child):after{
-        background-color: white;
-    }
-    .title-line{
-        background-color: white;
-    }
-    section,.bread{
-        z-index: 5;
-        position: relative;
-        color:white;   
-    }
-    .ratioA{
-        font-weight: 500;
-        font-size: 32px;
-        text-align: center;
-        line-height: 1.3;
-        margin-bottom: 0.4em;
-    }
-    footer{
-        z-index: 5;
-        position: relative;
-    }
-}
-.bg_video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 100vw;
-    height: 56.25vw;
-    /* 9/16*100 = 56.25 */
-    min-height: 100vh;
-    min-width: 177.77vh;
-    /* 16/9*100 = 177.77 */
-    opacity: 0;
-}
-.bg_video.loaded {
-    opacity: 1;
-}
 ul.note1{
     display: flex;
     flex-wrap: wrap;    
@@ -441,31 +369,30 @@ ul.note-col-2{
     text-align: center;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    padding:18px 0 32px;
+    padding:18px 0;
     .fontfix.minH{
-        margin-bottom: 32px;
-        font-size: 12px;
-        b,div{
-            height: 2.2em;
-            line-height: 1.1em;
-            margin-bottom: 0.25em;
-            display: block;
-            letter-spacing: 0.2em;
-        }
+        min-height: 6em;
+        margin-bottom: 40px;
+    }    
+    b.fs12{
+        display: block;
+        letter-spacing: 0.2em;
+        margin-bottom: 1em;
+    }
+    .fs20.fen{
+        font-weight: 500;
     }
     div>span{
         display: block;
         line-height: 1.2;
+        margin-bottom: 1em;
         font-weight: 500;
     }
-    div > span:not(:last-child){
-        margin-bottom: 1em;
-    }
     li:not(.w100){
-        padding:0 0.4em;
+        padding:1.3em;
     }
     li.w100{
-        padding-top: 40px;
+        padding-top: 60px;
         flex:0 0 100%;
         text-align: left;
         letter-spacing: 0.2em;

@@ -24,7 +24,7 @@ header{
         @include mediaquery(null,$sm){  
             text-align: left;
             color:#111;
-            padding-top: 24px;
+            padding-top: 16px;
             i{
                 display: block;
             }
@@ -131,20 +131,5 @@ header{
         }
         @include mediaquery($lg,null){
         }
-    }
-}
-.header_logo{
-    @include position(absolute,$left:16px,$top:16px);
-    z-index: 99;
-    img.wh{
-        display: none;
-    }
-}
-.logoWh .header_logo{
-    img.bk{
-        display: none;
-    }
-    img.wh{
-        display: block;
     }
 }

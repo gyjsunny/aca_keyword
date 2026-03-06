@@ -1,10 +1,9 @@
 <footer>     
     <b class="copyright">
-        COPYRIGHT © 2025 ARTISTS. ALL RIGHTS RESERVED. <br>
-        SLOGAN DESIGN BY RAJNISH CHHANESH, <br>
-        LOGO DESIGN BY CHERIE LIANG, ALL RIGHTS RESERVED.
+        Copyright © 2023 Artists. All rights reserved.<br>
+        Slogan Design by Rajnish Chhanesh, all rights reserved. 
     </b><br><br>
-    keywordartstudio@gmail.com
+    Special Thanks Artemas Liu
 </footer>
 <script src="dist/js/main.js"></script>
 
