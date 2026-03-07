@@ -90,10 +90,6 @@ ul.project-list li {
   padding-bottom: 30px;
   background: no-repeat url(../images/external-link-wh.png) calc(100% - 45px) 25px/12px;
 }
-ul.project-list .tname {
-  font-weight: 700;
-  letter-spacing: 0.03em;
-}
 @media all and (max-width: 575px) {
   ul.project-list .tname {
     font-size: 36px;
@@ -103,6 +99,10 @@ ul.project-list .tname {
   ul.project-list .tname {
     font-size: 44px;
   }
+}
+ul.project-list .tname {
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 ul.project-list .name {
   margin-top: 0.5em;
@@ -136,10 +136,6 @@ ul.artwork-list a {
 ul.artwork-list strong {
   font-size: 12px;
 }
-ul.artwork-list .tname {
-  font-weight: 700;
-  letter-spacing: 0.03em;
-}
 @media all and (max-width: 575px) {
   ul.artwork-list .tname {
     font-size: 24px;
@@ -149,6 +145,10 @@ ul.artwork-list .tname {
   ul.artwork-list .tname {
     font-size: 28px;
   }
+}
+ul.artwork-list .tname {
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 ul.artwork-list .tag {
   opacity: 0.6;
@@ -280,38 +280,28 @@ ul.artwork-list .tag {
   }
 }
 
-ul.full-text > li {
+ul.full-text li {
   border-bottom: 1px solid #d8d8d8;
   margin-bottom: 16px;
   position: relative;
   padding: 16px 0;
 }
-ul.full-text > li a {
+ul.full-text li a {
   color: black;
   font-family: "Arimo", sans-serif;
   font-weight: 700;
   font-size: 28px;
   display: block;
 }
-ul.full-text ol {
-  font-size: 14px;
-}
-ul.full-text ol li {
-  margin-bottom: 8px;
-}
-ul.full-text ol b {
-  width: 1em;
-  margin-right: 8px;
-  display: inline-block;
-}
-ul.full-text sub {
-  vertical-align: super;
-  font-size: 12px;
+ul.full-text h3.title {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0.3em;
 }
 ul.full-text .stext {
   padding-top: 30px;
   padding-bottom: 80px;
-  display: none;
 }
 ul.full-text .dwbtn {
   position: absolute;
@@ -439,58 +429,6 @@ ul.full-text li.active .dwbtn {
   margin-top: 200px;
 }
 
-#Wapper.ytbg {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-#Wapper.ytbg::before {
-  content: "";
-}
-#Wapper.ytbg .bread a {
-  color: white;
-}
-#Wapper.ytbg .bread a:not(:last-child):after {
-  background-color: white;
-}
-#Wapper.ytbg .title-line {
-  background-color: white;
-}
-#Wapper.ytbg section, #Wapper.ytbg .bread {
-  z-index: 5;
-  position: relative;
-  color: white;
-}
-#Wapper.ytbg .ratioA {
-  font-weight: 500;
-  font-size: 32px;
-  text-align: center;
-  line-height: 1.3;
-  margin-bottom: 0.4em;
-}
-#Wapper.ytbg footer {
-  z-index: 5;
-  position: relative;
-}
-
-.bg_video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 100vw;
-  height: 56.25vw;
-  /* 9/16*100 = 56.25 */
-  min-height: 100vh;
-  min-width: 177.77vh;
-  /* 16/9*100 = 177.77 */
-  opacity: 0;
-}
-
-.bg_video.loaded {
-  opacity: 1;
-}
-
 ul.note1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -513,39 +451,37 @@ ul.note-col-2 {
   text-align: center;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 18px 0 32px;
+  padding: 18px 0;
 }
 ul.note-col-3 .fontfix.minH,
 ul.note-col-2 .fontfix.minH {
-  margin-bottom: 32px;
-  font-size: 12px;
+  min-height: 6em;
+  margin-bottom: 40px;
 }
-ul.note-col-3 .fontfix.minH b, ul.note-col-3 .fontfix.minH div,
-ul.note-col-2 .fontfix.minH b,
-ul.note-col-2 .fontfix.minH div {
-  height: 2.2em;
-  line-height: 1.1em;
-  margin-bottom: 0.25em;
+ul.note-col-3 b.fs12,
+ul.note-col-2 b.fs12 {
   display: block;
   letter-spacing: 0.2em;
+  margin-bottom: 1em;
+}
+ul.note-col-3 .fs20.fen,
+ul.note-col-2 .fs20.fen {
+  font-weight: 500;
 }
 ul.note-col-3 div > span,
 ul.note-col-2 div > span {
   display: block;
   line-height: 1.2;
-  font-weight: 500;
-}
-ul.note-col-3 div > span:not(:last-child),
-ul.note-col-2 div > span:not(:last-child) {
   margin-bottom: 1em;
+  font-weight: 500;
 }
 ul.note-col-3 li:not(.w100),
 ul.note-col-2 li:not(.w100) {
-  padding: 0 0.4em;
+  padding: 1.3em;
 }
 ul.note-col-3 li.w100,
 ul.note-col-2 li.w100 {
-  padding-top: 40px;
+  padding-top: 60px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;

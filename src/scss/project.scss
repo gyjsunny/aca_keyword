@@ -235,10 +235,16 @@ ul.full-text{
         font-size: 28px;
         display: block;
     }
+    h3.title{
+        font-family: $fontSerif;
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 0.3em;
+    }
     .stext{
         padding-top: 30px;
         padding-bottom: 80px;
-        display: none;
+        // display: none;
     }
     .dwbtn{
         @include position(absolute,$top:25px,$right:0);

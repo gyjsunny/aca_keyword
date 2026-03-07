@@ -1,5 +1,6 @@
 [
   {
+    "id" : 0,
     "photo": "Member-LI-Kuei-Pi",
     "name": "LI Kuei-Pi",
     "title": "Principal Coordinator",
@@ -11,6 +12,7 @@
     "tag": "-"
   },
   {
+    "id" : 1,
     "photo": "Member-Tapas-Roy",
     "name": "Tapas Roy",
     "title": "Co-Producter",
@@ -22,6 +24,7 @@
     "tag": "# Voice"
   },
   {
+    "id" : 2,
     "photo": "Member-Vichar-K-Achaar",
     "name": "Vichar K Achaar",
     "title": "Co-Producter",
@@ -33,6 +36,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 3,
     "photo": "Member-Manmeet-Sandhu",
     "name": "Manmeet Sandhu",
     "title": "Co-Producter",
@@ -44,6 +48,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 4,
     "photo": "Member-Shrabani-Dasgupta",
     "name": "Shrabani Dasgupta",
     "title": "Co-Producter",
@@ -55,6 +60,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 5,
     "photo": "Member-Shreya-Shruti",
     "name": "Shreya Shruti",
     "title": "Co-Producter",
@@ -66,6 +72,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 6,
     "photo": "Member-Gunjan-Singhal",
     "name": "Gunjan Singhal",
     "title": "Co-Producter",
@@ -77,6 +84,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 7,
     "photo": "Member-Varnita-Sethi",
     "name": "Varnita Sethi",
     "title": "Co-Producter",
@@ -88,6 +96,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 8,
     "photo": "Member-Charulata-Mukherjee",
     "name": "Charulata Mukherjee",
     "title": "Co-Producter",
@@ -99,6 +108,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 9,
     "photo": "Member-Reshma-Khatoon",
     "name": "Reshma Khatoon",
     "title": "Co-Producter",
@@ -110,6 +120,7 @@
     "tag": "# Lockdown"
   },
   {
+    "id" : 10,
     "photo": "Member-Mrinal-Kulkarni",
     "name": "Mrinal Kulkarni",
     "title": "Co-Producter",
@@ -121,6 +132,7 @@
     "tag": "# Post Humanist Body # Visuality"
   },
   {
+    "id" : 11,
     "photo": "Member-Rikey-Tenn-1",
     "name": "Rikey Tēnn",
     "title": "Principal Coordinator",
@@ -132,6 +144,7 @@
     "tag": "-"
   },
   {
+    "id" : 12,
     "photo": "Member-Angga-Cipta",
     "name": "Angga Cipta",
     "title": "Co-Producter",
@@ -143,6 +156,7 @@
     "tag": "# Berkumpul dan Bersiasat  # Rumah # The Spices of Society"
   },
   {
+    "id" : 13,
     "photo": "Member-Posak-Jodian",
     "name": "Posak Jodian",
     "title": "Co-Producter",
@@ -154,6 +168,7 @@
     "tag": "# Kami # Kita # Lumah"
   },
   {
+    "id" : 14,
     "photo": "Member-Issay-Rodriguez",
     "name": "Issay Rodriguez",
     "title": "Principal Coordinator",
@@ -165,6 +180,7 @@
     "tag": "-"
   },
   {
+    "id" : 15,
     "photo": "Member-Charms-Tienzon",
     "name": "Charms Tienzon",
     "title": "Coordinator",
@@ -176,6 +192,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 16,
     "photo": "Member-Chun-Liang-Liu",
     "name": "Chun-Liang Liu",
     "title": "Participant",
@@ -187,6 +204,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 17,
     "photo": "Member-Marian-Barro",
     "name": "Marian Barro",
     "title": "Participant",
@@ -198,6 +216,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 18,
     "photo": "Member-Shau-Lou-Young",
     "name": "Shau-Lou Young",
     "title": "Participant",
@@ -209,6 +228,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 19,
     "photo": "Member-Hsu-Wei-Huang",
     "name": "Hsu-Wei Huang",
     "title": "Participant",
@@ -220,6 +240,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 20,
     "photo": "Member-Rikey-Tenn-2",
     "name": "Rikey Tēnn",
     "title": "Participant",
@@ -231,6 +252,7 @@
     "tag": "-"
   },
   {
+    "id" : 21,
     "photo": "Member-Aissa-Domingo",
     "name": "Aissa Domingo",
     "title": "Participant",
@@ -242,6 +264,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 22,
     "photo": "Member-Luigi-Laurel",
     "name": "Luigi Laurel",
     "title": "Participant",
@@ -253,6 +276,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 23,
     "photo": "Member-Anna-Patricia-Rodriguez-Carranza",
     "name": "Anna Patricia Rodriguez-Carranza",
     "title": "Participant",
@@ -264,6 +288,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 24,
     "photo": "Member-Carmela-Lapena",
     "name": "Carmela Lapeña",
     "title": "Participant",
@@ -275,6 +300,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 25,
     "photo": "Member-Ricardo-Malit",
     "name": "Ricardo Malit",
     "title": "Participant",
@@ -286,6 +312,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 26,
     "photo": "Member-Charlie-Aninion",
     "name": "Charlie Aninion",
     "title": "Participant",
@@ -297,6 +324,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 27,
     "photo": "Member-Jeannine-Dissirama-Bessoga",
     "name": "Jeannine Dissirama Bessoga",
     "title": "Participant",
@@ -308,6 +336,7 @@
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
   },
   {
+    "id" : 28,
     "photo": "Member-Lui-Tan",
     "name": "Lui Tan",
     "title": "Participant",
@@ -317,5 +346,101 @@
     "project": "AQUARIUM Poetry workshop",
     "projectId": 7,
     "tag": "# Aruga  # Dama # Nilay # Tanawin"
+  },
+  {
+    "id" : 29,
+    "photo": "Member-Anna-Ehrenstein",
+    "name": "Anna Ehrenstein",
+    "title": "Artist",
+    "intro": "Anna Ehrenstein works in transdisciplinary artistic practice with an emphasis on research and collaboration. She uses lens based media, print, video, installation, social moments, sculpture and text to investigate the exchange of people and objects in a postdigital and neocolonial condition. Born in Germany to Albanian parents with Albanian, Turkish, Kosovar and Egyptian ancestry, she weaves multipolar counter-narratives between Berlin, Tirana and the cloud, dealing with the material culture of the periphery, networked images, and the materialization of the intangible and ephemeral (from data to collective memory). She works with a large number of groups on joint artistic projects and believes in the radical possibilities of spiritual coalition, prioritizing community, ritual and collective unlearning.\n\nEhrenstein studied photography and media arts and took part in a range of curatorial workshops that form the basis of her collaborative practice. With a range of co-conspirators, Ehrenstein has put on exhibitions at Kunstverein Braunschweig, C/O Berlin, KOW Berlin, Landesmuseum Linz, and Bazament Art Space Tirana. Her works have been included in the 2024 Lagos Biennale, the 2022 Screen City Biennale Oslo, and various international group shows.",
+    "mail": "-",
+    "blog": "https://annaehrenstein.com/",
+    "project": "Injustice Systems",
+    "projectId": 7,
+    "tag": "# Surveillance Capitalism  # Euro-American Atlantic Axis # p@lest!ne # Content Moderation"
+  },
+  {
+    "id" : 30,
+    "photo": "Member-JUAN-Po-Yuan",
+    "name": "JUAN Po-Yuan",
+    "title": "Artist",
+    "intro": "JUAN Po-Yuan, based in Taipei, is an artist, gamer, and internet enthusiast focused on digital games, cyberspace, and cybeerqueer, with digital archaeology at the core of his work. His inspiration stems from growing up in the post-Internet era, influenced by new browsers and online communities. He incorporates aesthetics and visual experiences from games as key creative sources. His work integrates elements of online games, communities, machinima, game engines, and digital technology, aiming to create new visual experiences and rethink digital. With a background in visual arts, he reflects on digital technology through sculpture, painting, and printmaking, questioning the meta-settings of the post-Internet era. Recently, his works delve into the digital objects behind interfaces, exploring how digitalization reshapes our perception in today's world.",
+    "mail": "-",
+    "blog": "https://poyuan.art/",
+    "project": "Fortified Hill Village",
+    "projectId": "",
+    "tag": "# Forsaken  # Scourge # Undead # Content Moderation"
+  },
+  {
+    "id" : 31,
+    "photo": "Member-LEE-Tzu-Tong",
+    "name": "LEE Tzu-Tong",
+    "title": "Artist",
+    "intro": "LEE Tzu-Tung is a conceptual artist and curator from Taiwan. They ask “How marginalized communities queer up the current ownership and sovereignty regime?”, and deployed the open-source spirit, decentralized tools, and participatory methods through their projects.\n\n Connecting anthropological field research, political concern, and economic activism, their works focus on how one can survive, manipulate, and regain autonomy through their identities, with special attention on the hegemony of Chinese Sino-centrism, colonial trauma, and Indigeneity in Taiwan's contemporary world. They surf between performances, web art, installations, fictional and experimental films, and play along the borders of art, academia, and politics. Tzu Tung experiments with how art as a method can test and decolonize the contemporary form of art, technology, and authority. \n\n Politically, Tzu Tung organized monthly conferences Café Philo Chicago (2016-2018), participated in NGO Overseas Taiwanese for Democracy, and edited the bilingual political magazine NewBloom. They are also the leader and visual designer for a rally of 200 people Anti-Black Box Education(2016), 40 cities broad rally Equality of Same-Sex Marriage (2016), and the organizer of the Indigenous protest Passage of Time (2016). \n\n Furthermore, Tzu-Tung has curated serval cross-disciplinary events, Tzu-Tung is part of a panel committee for art and political roundtable in the 2017 North American Taiwan Study Association, served as the Jury Committee Taiwan International Ethnographic Film Festival, and the curator of an art and anthropology exhibition, Sensefield. Tzu Tung is currently the founder of Tinyverse NPO, which facilitates transdisciplinary, collaborative art projects, and holds a series of Hackathon for Artists events in Taiwan.",
+    "mail": "-",
+    "blog": "https://www.tzutung.com/home",
+    "project": "The Body's Tale of Vengeance & Mercy",
+    "projectId": 7,
+    "tag": "#  Emotional Abuse  # Anti-SLAPP # Crip # Psychological Manipulation # Post Trauma Messages"
+  },
+  {
+    "id" : 32,
+    "photo": "Member-Lisistrata-Lusandiana",
+    "name": "Lisistrata Lusandiana",
+    "title": "Principal Coordinator",
+    "intro": "Lisistrata Lusandiana is a Ph.D. student in the Anthropology department at UC Riverside. In 2018-2023 she worked as an executive director of the Indonesian Visual Art Archive. She graduated with B.A. in English Letters from Universitas Sanata Dharma, Indonesia and M.A. in Cultural Studies from the same university. Since 2014 she has worked in an interdisciplinary cultural scene, in the gallery, library, archive institution, and museum (GLAM). Her research interests revolve around aesthetics, tourism, the politics of remembrance, decolonizing methodologies, and situated knowledge.",
+    "mail": "-",
+    "blog": "-",
+    "project": "Post Censorship Self-Mapping Workshop ", 
+    "projectId": 7,
+    "tag": "# Public Art  # Common Enemy(ies) # Self-Censorship and Raw Emotion # Connect and Reconnection"
+  },
+  {
+    "id" : 33,
+    "photo": "Member-Irfanuddien-Ghozali",
+    "name": "Irfanuddien Ghozali",
+    "title": "Coordinator",
+    "intro": "Irfanuddien Ghozali is a theatre director and actor based in Yogyakarta Indonesia. He has a background in sociology and theatre. Since 2012, he has been working on the production of a play based on the history of a specific environment. In 2019, he directed “Plunge” dramatic reading, written by Jean Tay at the third Asia Play Write Meeting initiated by the Indonesia Dramatic Reading Festival (IDRF) and the Umar Kayam Foundation. In 2020, he initiated and worked as a dramaturg in the “Gymnastik Emporium” performance at the Jakarta Biennale, Indonesian Dance Festival, and other art events both locally and internationally.",
+    "mail": "-",
+    "blog": "-",
+    "project": "Post Censorship Self-Mapping Workshop ", 
+    "projectId": 7,
+    "tag": "# Public Art  # Common Enemy(ies) # Self-Censorship and Raw Emotion # Connect and Reconnection"
+  },
+  {
+    "id" : 34,
+    "photo": "Member-Dwi-Rahmanto",
+    "name": "Dwi Rahmanto (Dwe)",
+    "title": "Coordinator",
+    "intro": "Dwi Rahmanto or Dwe was born in Gunungkidul. He is currently working as Head of Archives at the Indonesian Visual Art Archive (IVAA). He has been more than 10 years involved in the art archives. He has been involved since the early process of developing archive management and digitalization at IVAA. He is also the initiator of ABDW Art Project, an interdisciplinary art community based in and from Gunungkidul regency. Besides, he is also a music manager and a music curator for music performances, such as Musrary (Music from IVAA’s library), and the sound of poetry for Jogja Art + Books Festival Yogyakarta. Amidst his daily activities, he also performs as a vocalist for Shoppinglist band.",
+    "mail": "-",
+    "blog": "-",
+    "project": "Post Censorship Self-Mapping Workshop ", 
+    "projectId": 7,
+    "tag": "# Public Art  # Common Enemy(ies) # Self-Censorship and Raw Emotion # Connect and Reconnection"
+  },
+  {
+    "id" : 35,
+    "photo": "Member-Krisnawan-Wisnu-Adi",
+    "name": "Krisnawan Wisnu Adi",
+    "title": "Coordinator",
+    "intro": "Krisnawan Wisnu Adi is a writer and archive enthusiast based in Yogyakarta. He has an academic background in sociology from Atma Jaya Yogyakarta University and Nanjing University. In 2019-2023 he worked at the Indonesian Visual Art Archive as a researcher, and program manager. Besides, he has actively participated in local community organizing scenes. ",
+    "mail": "-",
+    "blog": "-",
+    "project": "Post Censorship Self-Mapping Workshop ", 
+    "projectId": 7,
+    "tag": "# Public Art  # Common Enemy(ies) # Self-Censorship and Raw Emotion # Connect and Reconnection"
+  },
+  {
+    "id" : 36,
+    "photo": "Member-Febrian-Adinata-Hasibuan",
+    "name": "Febrian Adinata Hasibuan",
+    "title": "Coordinator",
+    "intro": "Febrian Adinata Hasibuan is a part-time writer and researcher based in Yogyakarta. He has an academic background in Indonesian Literature from Jenderal Soedirman University and Cultural Studies from Sanata Dharma University. From 2021 until now he worked at Krack Studio Collective and Printmaking with a project on the history of printmaking in Indonesia.",
+    "mail": "-",
+    "blog": "https://www.instagram.com/febrianhasibuan",
+    "project": "Post Censorship Self-Mapping Workshop", 
+    "projectId": 7,
+    "tag": "# Public Art  # Common Enemy(ies) # Self-Censorship and Raw Emotion # Connect and Reconnection"
   }
 ]

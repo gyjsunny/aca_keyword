@@ -46,13 +46,24 @@
         <section class="member-list bgblack">
             <div class="text-center">
                 <div class="bdr">MEMBER LIST</div>
-                <h2 class="h2title"><a href="The-footprints-of-Maroon.php">The Footprints of Maroon</a></h2>
+                <h2 class="h2title"><a href="The-footprints-of-Maroon.php">The Footprints of Maroon</a></h2>                
+                <div class="tab-wrap wh">
+                    <div class="active">
+                        <span class="en">PHASE 1</span>
+                        <span class="tw">第一期</span>
+                    </div>
+                    <div>
+                        <span class="en">PHASE 2</span>
+                        <span class="tw">第二期</span>
+                    </div>
+                </div>
             </div>
             <ul id="project1"></ul>
             <h2 class="h2title"><a href="Astronesian-Atlas.php">Astronesian Atlas</a></h2>
             <ul id="project2"></ul>
             <h2 class="h2title"><a href="Aquarium.php">AQUARIUM</a></h2>
             <ul id="project3"></ul>
+            <ul id="project4"></ul>
         </section>
     </div>
     <?php include "quote/template/footer.php"; ?>
@@ -60,6 +71,7 @@
         let p1 = document.getElementById('project1')
         let p2 = document.getElementById('project2')
         let p3 = document.getElementById('project3')
+        let p4 = document.getElementById('project4')
         $.ajax({
             type: "GET",
             async: true,
@@ -88,6 +100,9 @@
                         template = ""; 
                     }else if(i == 28){
                         p3.innerHTML = `${template}`;
+                        template = "";
+                    }else if(i == 36){
+                        p4.innerHTML = `${template}`;
                         template = "";
                     }
                 });

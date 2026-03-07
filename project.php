@@ -33,6 +33,32 @@
                 </a>
             </li>
         </ul>
+        <ul class="project-list bgblack fserif">
+            <li>
+                <a href="#.php">
+                    <div class="tname">Injustice Systems</div>
+                    <div class="name">by <b>Anna Ehrenstein</b></div>
+                </a>
+            </li>
+            <li>
+                <a href="#.php">
+                    <div class="tname">Fortified Hill Village</div>
+                    <div class="name">by <b>JUAN Po-Yuan</b></div>
+                </a>
+            </li>
+            <li>
+                <a href="#.php">
+                    <div class="tname">The Body's Tale of Vengeance & Mercy</div>
+                    <div class="name">by <b>LEE Tzu-Tong</b></div>
+                </a>
+            </li>
+            <li>
+                <a href="#.php">
+                    <div class="tname">Post Censorship Self-Mapping Workshop</div>
+                    <div class="name">by <b>Lisistrata Lusandiana</b></div>
+                </a>
+            </li>
+        </ul> 
     </div>
     <?php include "quote/template/footer.php"; ?>
 </body>
