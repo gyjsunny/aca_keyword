@@ -64,7 +64,7 @@
                             <a href="javascript:;">Glossory List</a>
                             <div class="stext">
                                 <figure>
-                                    <!-- <img src="dist/images/bodys-tale-of-vengeance-mercy/img1.png" class="w100"> -->
+                                    <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method1.png" class="w100">
                                 </figure>
                             </div>
                             <div class="dwbtn"><div>                            
@@ -72,8 +72,28 @@
                         <li>
                             <a href="javascript:;">Geers</a>
                             <div class="stext">
+                                <h3 class="title">Pegboard</h3>
                                 <figure>
-                                    <!-- <img src="dist/images/bodys-tale-of-vengeance-mercy/img1.png" class="w100"> -->
+                                    <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method2.png" class="w100">
+                                </figure>
+                                <h3 class="title">Wall</h3>
+                                <figure>
+                                    <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method3.png" class="w100">
+                                </figure>
+                                <br><br>
+                                <h3 class="title">Camera</h3>
+                                <figure>
+                                    <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method4.png" class="w100">
+                                </figure>
+                                <br><br>
+                                <h3 class="title">Wheelchair & Chairs</h3>
+                                <figure>
+                                    <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method5.png" class="w100">
+                                </figure>
+                                <br><br>
+                                <h3 class="title">Flooring & Punching Bag</h3>
+                                <figure>
+                                    <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method6.png" class="w100">
                                 </figure>
                             </div>
                             <div class="dwbtn"><div>                            
