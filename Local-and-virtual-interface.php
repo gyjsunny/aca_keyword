@@ -251,24 +251,6 @@
         </section>
     </div>
     <?php include "quote/template/footer.php"; ?>
-    <script>
-          $('ul.full-text li > a').on('click', function () {
-            let $this = $(this);
-            let obj = $('ul.full-text li ');
-
-            if ($(this).next().is(':hidden')) {
-                obj.find('.stext').slideUp();
-                obj.removeClass('active');
-                $this.next().slideDown();
-                $this.parent().addClass('active');
-            } else {
-                $this.next().slideUp();
-                $this.parent().removeClass('active');
-            }
-
-            return false;
-        });
-    </script>
 </body>
 
 </html>

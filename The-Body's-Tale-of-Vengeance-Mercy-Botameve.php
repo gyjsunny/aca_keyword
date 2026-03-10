@@ -38,10 +38,10 @@
                 <a href="The-Body's-Tale-of-Vengeance-Mercy-Prologue.php">
                     <span class="en">PROLOGUE</span>
                 </a>
-                <a href="The-Body's-Tale-of-Vengeance-Mercy-Botameve.php">
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Botameve.php" class="active">
                     <span class="en">BOTAMEVE</span>
                 </a>
-                <a href="The-Body's-Tale-of-Vengeance-Mercy-Method.php" class="active">
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Method.php">
                     <span class="en">METHOD</span>
                 </a>
                 <a href="The-Body's-Tale-of-Vengeance-Mercy-Pratice.php">
@@ -54,7 +54,7 @@
                 <div class="col-xl-8 col-9 col-auto">  
                     <ul class="full-text fwhite">    
                         <li>
-                            <a href="javascript:;">BOTAMEVE Rules</a>
+                            <a href="javascript:;">Intro to botameve</a>
                             <div class="stext">
                                 Rule No.1<br>
                                 We talk about the fight club, the BO-TA-ME-VE ! We talk about different Body's Tale of Mercy and Vengeance !<br><br>
@@ -80,7 +80,7 @@
                             <div class="dwbtn"></div>                            
                         </li>
                         <li>
-                            <a href="javascript:;">Glossory List</a>
+                            <a href="javascript:;">Join us member</a>
                             <div class="stext">
                                 <figure>
                                     <img src="dist/images/bodys-tale-of-vengeance-mercy/img-method1.png" class="w100">
@@ -89,7 +89,7 @@
                             <div class="dwbtn"><div>                            
                         </li>
                         <li>
-                            <a href="javascript:;">Geers</a>
+                            <a href="javascript:;">Class Structure</a>
                             <div class="stext">
                                 <h3 class="title">Pegboard</h3>
                                 <figure>

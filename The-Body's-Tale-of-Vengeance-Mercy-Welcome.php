@@ -16,7 +16,7 @@
         </div>        
         <section class="row">
             <div class="col-auto text-center">
-                <div class="fs24 mb-2">
+                <div class="fs24 mb40">
                     <b>LEE Tzu-Tong</b>
                     <span class="tag">
                         <i># Emotional Abuse</i>
@@ -26,10 +26,29 @@
                         <i># Post Trauma Messages</i>
                     </span>
                 </div>
-                <h1 class="h1title">The Body's Tale <br> of Vengeance & Mercy</h1>
+                <h1 class="h1title fs80">The Body's Tale <br> of Vengeance & Mercy</h1>
                 <div class="title-line"></div>            
             </div>
         </section> 
+        <div class="tab-wrap mb80">
+            <div class="tab-inner">
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Welcome.php" class="active">
+                    <span class="en">Welcome</span>
+                </a>
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Prologue.php">
+                    <span class="en">PROLOGUE</span>
+                </a>
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Botameve.php">
+                    <span class="en">BOTAMEVE</span>
+                </a>
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Method.php">
+                    <span class="en">METHOD</span>
+                </a>
+                <a href="The-Body's-Tale-of-Vengeance-Mercy-Pratice.php">
+                    <span class="en">PRATICE</span>
+                </a>
+            </div>
+        </div>
         <section class="row mb120">
             <div class="col-xl-8 col-9 col-auto">
                 <p class="stext mb40">

@@ -257,6 +257,9 @@ b,strong{
 p{
   margin-bottom: 1.5em;
 }
+em{
+   font-style: italic;
+}
 .fs12{
   font-size: 12px;
 }
@@ -293,8 +296,23 @@ p{
 .mb120{
   margin-bottom: 120px;
 }
+.pt40{
+  padding-top: 40px;
+}
+.pt80{
+  padding-top: 80px;
+}
+.pb40{
+  padding-bottom: 40px;
+}
+.pb80{
+  padding-bottom: 80px;
+}
 .fgray{
   color:#666;
+}
+.fwhite{
+  color:#fff;
 }
 .bread{
   text-align: center;
@@ -324,7 +342,16 @@ p{
 .h1title{
   @include font-size(60px,140px);
   line-height: 1;
-  text-align: center;
+  text-align: center;  
+  @include mediaquery($sm,$lg){
+    font-size: 80px;
+  }
+}
+.h1title.fs80{
+  @include font-size(60px,80px);
+  @include mediaquery($sm,$lg){
+    font-size: 60px;
+  }
 }
 .h1title.fs124{
   @include font-size(60px,124px);
@@ -345,7 +372,11 @@ p{
 .stext{
   font-size: 16px;
   line-height: 1.625;
-  font-weight: 500;
+  // font-weight: 500;
+  a{
+    color:#666;
+    text-decoration: underline;
+  }
   a:hover{
     color:$color5;
   }
@@ -399,13 +430,29 @@ p{
 
 //頁簽
 .tab-wrap{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  > div{
-    padding:0 12px 12px;
-    margin:0 20px;
-    cursor: pointer;
+  padding: 0 50px; 
+  overflow-x: auto;
+
+  .tab-inner{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    width: max-content;
+    margin: 0 auto;   /* 未滿寬時置中 */
+  }
+  
+  &::-webkit-scrollbar{
+    display: none;
+  }
+  a{
+    flex: 0 0 auto;
+    padding:4px 26px 8px;
+    color:#111;
+    opacity: 0.4;
+    border-bottom:1px solid #111;
+  }
+  a.active{
+    opacity: 1;
   }
   span{
       display: block;
@@ -415,6 +462,7 @@ p{
     font-weight: 500;
   }
   .en{
+    font-family: $fontSerif;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -450,10 +498,5 @@ sup{
   }
   .bdr{
     padding: 4px 16px;
-  }
-}
-@include mediaquery($sm,$lg){
-  .h1title{
-    font-size: 80px;
   }
 }

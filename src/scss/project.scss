@@ -53,6 +53,10 @@ summary{
     color:#666666;
 }
 
+.tab-wrap{
+
+}
+
 ul.project-list{
     margin-top: 100px;
     li{
@@ -222,13 +226,13 @@ ul.artwork-list{
 //loca-and-virtual
 ul.full-text{
     // color:white;
-    li{
+    > li{
         border-bottom: 1px solid #d8d8d8;
         margin-bottom: 16px;
         position: relative;
         padding:16px 0;
     }
-    li a{
+    > li > a{
         color:black;
         font-family: $fontSerif;
         font-weight: 700;
@@ -241,19 +245,60 @@ ul.full-text{
         font-size: 40px;
         margin-bottom: 0.3em;
     }
+    b.fserif{
+        font-family: $fontSerif;
+        font-weight: 500;
+        font-size: 20px;
+    }
     .stext{
         padding-top: 30px;
         padding-bottom: 80px;
-        // display: none;
+        display: none;
+    }
+    ul.checkimg{
+        li{
+            display: flex;
+            line-height: 1.625;
+        }
+        li:before{            
+            content: "✅" ;
+            margin-right:0.5em;
+        }
+    }
+    ol.list-number{
+        list-style: decimal;
+        li{
+            margin-bottom: 0.5em;
+        }
+    }
+    ul.list-dots{
+        list-style: disc;
+        li{
+            margin-bottom: 0.5em;
+        }
+    }
+    blockquote{        
     }
     .dwbtn{
         @include position(absolute,$top:25px,$right:0);
         width: 16px;
         height: 16px;
-        background:no-repeat url(../images/plus_bk.png) center / contain;
+        background-color: #111;
+        mask:no-repeat url(../images/plus_bk.png) center / contain;
     }
     li.active .dwbtn{
         transform: rotate(45deg);
+    }
+}
+ul.full-text.fwhite{
+    > li > a{
+        color:#fff;
+    }
+    .dwbtn{
+        background-color: #fff;
+    }
+    blockquote{
+        border-color: #fff;
     }
 }
 
