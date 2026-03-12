@@ -37,33 +37,39 @@
                         <div class="title">Director</div>
                         <div class="stext">Li Kuei-Pi was born in Tainan in 1991. She received her MFA from Taipei National University of the Arts in 2017, and currently lives in Taipei. Her work engages in transnational mobility and labor experience, in which she converts objects created from labor and intervenes in the labor process, transforming the meaning of the products to convey her critical viewpoints about the modern material world. <br><br>
 
-                        Li specializes in utilizing objects from the site of labor work before employing means of imitation, reproduction and remaking to entrap the audience in her elaborately conceived works, in which the audience become performers as well as part of the exhibited works. Meanwhile, she makes use of historical clues embedded in the objects to include issues related to the identity of different communities in her discussion about production systems. For the artist, history is not simply a string of linearly associated events but the result formed through a gradually changing process of production systems. The changes in the latter also indicate changes in techniques and instruments. Therefore, one of her constant focus is how to incorporate these changes into her creations while involving the audience in the completion of these works.
+                            Li specializes in utilizing objects from the site of labor work before employing means of imitation, reproduction and remaking to entrap the audience in her elaborately conceived works, in which the audience become performers as well as part of the exhibited works. Meanwhile, she makes use of historical clues embedded in the objects to include issues related to the identity of different communities in her discussion about production systems. For the artist, history is not simply a string of linearly associated events but the result formed through a gradually changing process of production systems. The changes in the latter also indicate changes in techniques and instruments. Therefore, one of her constant focus is how to incorporate these changes into her creations while involving the audience in the completion of these works.
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="member-list bgblack">
+        <section class="member-container bgblack">
             <div class="text-center">
                 <div class="bdr">MEMBER LIST</div>
-                <h2 class="h2title"><a href="The-footprints-of-Maroon.php">The Footprints of Maroon</a></h2>                
-                <div class="tab-wrap wh">
-                    <div class="active">
-                        <span class="en">PHASE 1</span>
-                        <span class="tw">第一期</span>
-                    </div>
-                    <div>
-                        <span class="en">PHASE 2</span>
-                        <span class="tw">第二期</span>
+                <div class="tab-wrap">
+                    <div class="tab-inner">
+                        <a href="#" class="active">
+                            <span class="en">PHASE 1</span>
+                            <span class="tw">第一期</span>
+                        </a>
+                        <a href="#">
+                            <span class="en">PHASE 2</span>
+                            <span class="tw">第二期</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <ul id="project1"></ul>
-            <h2 class="h2title"><a href="Astronesian-Atlas.php">Astronesian Atlas</a></h2>
-            <ul id="project2"></ul>
-            <h2 class="h2title"><a href="Aquarium.php">AQUARIUM</a></h2>
-            <ul id="project3"></ul>
-            <ul id="project4"></ul>
+            <div class="member-list active">
+                <h2 class="h2title"><a href="The-footprints-of-Maroon.php">The Footprints of Maroon</a></h2>
+                <ul id="project1"></ul>
+                <h2 class="h2title"><a href="Astronesian-Atlas.php">Astronesian Atlas</a></h2>
+                <ul id="project2"></ul>
+                <h2 class="h2title"><a href="Aquarium.php">AQUARIUM</a></h2>
+                <ul id="project3"></ul>
+            </div>
+            <div class="member-list">
+                <ul id="project4"></ul>
+            </div>
         </section>
     </div>
     <?php include "quote/template/footer.php"; ?>
@@ -75,11 +81,11 @@
         $.ajax({
             type: "GET",
             async: true,
-            url:"dist/data/data.json",
-            dataType: "json",    
+            url: "dist/data/data.json",
+            dataType: "json",
             success: function(msg) {
                 let template = "";
-                msg.forEach(function(value,i) {
+                msg.forEach(function(value, i) {
                     template += `<li>
                         <a href="member.php?name=${value.photo}">
                             <div class="mimg">
@@ -92,22 +98,43 @@
                             </div>
                         </a>
                     </li>`
-                    if(i == 10){
+                    if (i == 10) {
                         p1.innerHTML = `${template}`;
-                        template = "";                        
-                    }else if(i == 13){
+                        template = "";
+                    } else if (i == 13) {
                         p2.innerHTML = `${template}`;
-                        template = ""; 
-                    }else if(i == 28){
+                        template = "";
+                    } else if (i == 28) {
                         p3.innerHTML = `${template}`;
                         template = "";
-                    }else if(i == 36){
+                    } else if (i == 36) {
                         p4.innerHTML = `${template}`;
                         template = "";
                     }
                 });
-            }  
+            }
         })
+        const tabs = document.querySelectorAll('.tab-inner a');
+        const lists = document.querySelectorAll('.member-list');
+
+        tabs.forEach((tab, index) => {
+
+            tab.addEventListener('click', e => {
+
+                e.preventDefault();
+
+                console.dir(e.currentTarget)
+                // tab active
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                // list active
+                lists.forEach(list => list.classList.remove('active'));
+                lists[index].classList.add('active');
+
+            });
+
+        });
     </script>
 </body>
 

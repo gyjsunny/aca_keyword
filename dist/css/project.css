@@ -84,6 +84,17 @@ summary {
 
 ul.project-list {
   margin-top: 100px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+  position: absolute;
+  width: 100%;
+}
+ul.project-list.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
 }
 ul.project-list li {
   border-bottom: 1px solid #333333;

@@ -1,21 +1,7 @@
 <?php include "quote/template/head.php"; ?>
 <link rel="stylesheet" href="dist/css/project.css">
 </head>
-<style>
-    .project-list{
-        opacity:0;
-        visibility:hidden;
-        transition: opacity .4s ease;
-        position:absolute;
-        width:100%;
-    }
 
-    .project-list.active{
-        opacity:1;
-        visibility:visible;
-        position:relative;
-    }
-</style>
 <body class="lang_tw index">
     <?php
     // include "quote/template/added.php";
@@ -26,10 +12,10 @@
             <a href="./">index</a>
             <a class="active">PROJECT</a>
         </div>
-        <h1 class="h1title">Project</h1>
-        <div class="tab-wrap mb40">
+        <h1 class="h1title mb80">Project</h1>
+        <div class="tab-wrap">
             <div class="tab-inner">
-                <a href="#">
+                <a href="#" class="active">
                     <span class="en">PHASE 1</span>
                     <span class="tw">第一期</span>
                 </a>
@@ -85,21 +71,20 @@
                         <div class="name">by <b>Lisistrata Lusandiana</b></div>
                     </a>
                 </li>
-            </ul> 
+            </ul>
         </div>
     </div>
     <?php include "quote/template/footer.php"; ?>
     <script>
         const tabs = document.querySelectorAll('.tab-inner a');
-        const lists = document.querySelectorAll('.project-list');
-        
-        tabs.forEach(tab => {
+        const lists = document.querySelectorAll('ul.project-list');
+
+        tabs.forEach((tab, index) => {
 
             tab.addEventListener('click', e => {
 
                 e.preventDefault();
 
-                const index = tab.dataset.tab;
                 console.dir(e.currentTarget)
                 // tab active
                 tabs.forEach(t => t.classList.remove('active'));

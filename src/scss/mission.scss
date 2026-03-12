@@ -13,6 +13,18 @@
     margin-bottom: 100px;
 }
 
+.mission-list{    
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s ease;
+    position: absolute;
+    width: 100%;
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+    }
+}
 .sponsor{
     padding: 60px 0 100px;
     ul{
